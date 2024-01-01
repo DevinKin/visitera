@@ -1,0 +1,1896 @@
+[m]133;A\[38:2:68:131:84m╭─[38:2:223:0:95mdevin[38:2:255:255:255m at [38:2:223:95:0mdevin[38:2:255:255:255m in [38:2:135:255:0m⌁
+[m[38:2:68:131:84m╰─[38:2:255:255:255mλ [34mcd[39m [96;4m~[36m/Downloads/[7;39;24m^C[27m                                                                                      [1;32m(base) [22m0[34m (0.012s)[38:2:102:102:102m < 17:47:34
+[m]133;A\[38:2:68:131:84m╭─[38:2:223:0:95mdevin[38:2:255:255:255m at [38:2:223:95:0mdevin[38:2:255:255:255m in [38:2:135:255:0m⌁
+[m[38:2:68:131:84m╰─[38:2:255:255:255mλ [34mcd[39m [96;4m~[36m/projects/clojure/visitera/[39;24m                                                                        [1;32m(base) [22m0[34m (0.012s)[38:2:102:102:102m < 17:47:34
+[m]133;C\ls
+[m]133;A\[38:2:68:131:84m╭─[38:2:223:0:95mdevin[38:2:255:255:255m at [38:2:223:95:0mdevin[38:2:255:255:255m in [38:2:135:255:0m⌁/projects/clojure/visitera[37m ([38:2:95:223:255mmaster [38:2:223:95:0m…17[37m)
+[m[38:2:68:131:84m╰─[38:2:255:255:255mλ [39mls                                                                                                     [1;32m(base) [22m0[34m (1.004s)[38:2:102:102:102m < 17:47:44
+[m]133;C\Capstanfile     Dockerfile  [1;34mlog[22;39m/          Procfile     README.md   shadow-cljs.edn  [1;34mtarget[22;39m/  test-config.edn
+[mdev-config.edn  [1;34menv[22;39m/        package.json  project.clj  [1;34mresources[22;39m/  [1;34msrc[22;39m/             [1;34mtest[22;39m/
+[m]133;A\[38:2:68:131:84m╭─[38:2:223:0:95mdevin[38:2:255:255:255m at [38:2:223:95:0mdevin[38:2:255:255:255m in [38:2:135:255:0m⌁/projects/clojure/visitera[37m ([38:2:95:223:255mmaster [38:2:223:95:0m…17[37m)
+[m[38:2:68:131:84m╰─[38:2:255:255:255mλ [34mlein[39m [36mtest-refresh[39m                                                                                      [1;32m(base) [22m0[34m (0.012s)[38:2:102:102:102m < 17:47:44
+[m]133;C\WARNING: parse-double already refers to: #'clojure.core/parse-double in namespace: cuerdas.core, being replaced by: #'cuerdas.core/pars
+[me-double
+[mWARNING: parse-long already refers to: #'clojure.core/parse-long in namespace: cuerdas.core, being replaced by: #'cuerdas.core/parse-lo
+[mng
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.middleware.formats visitera.config visitera.db.core visitera.dev-middleware visitera.env visitera.layout visitera.
+[mmiddleware visitera.validation visitera.routes.home visitera.handler visitera.nrepl visitera.core visitera.handler-test user)
+
+[mTesting visitera.handler-test
+
+[mFAIL in (test-app) (handler_test.clj:23)
+[mmain route
+[mexpected: 200
+[m  actual: 302
+[m    diff: - 200
+[m          + 302
+
+[mRan 1 tests containing 2 assertions.
+[m1 failures, 0 errors.
+
+[mFailed 1 of 2 assertions
+[mFinished at 17:48:28.762 (run time: 1.007s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.handler-test)
+
+[mTesting visitera.handler-test
+
+[mRan 1 tests containing 2 assertions.
+[m0 failures, 0 errors.
+
+[mPassed all tests
+[mFinished at 17:49:12.664 (run time: 0.096s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading ()
+
+[mTesting visitera.handler-test
+
+[mRan 1 tests containing 2 assertions.
+[m0 failures, 0 errors.
+
+[mPassed all tests
+[mFinished at 17:53:00.586 (run time: 0.033s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mRan 1 tests containing 2 assertions.
+[m0 failures, 0 errors.
+
+[mPassed all tests
+[mFinished at 17:53:08.436 (run time: 0.072s)
+[m#error {
+[m :cause Unparsable namespace form
+[m :data {:reason :clojure.tools.namespace.parse/unparsable-ns-form, :form []}
+[m :via
+[m [{:type clojure.lang.ExceptionInfo
+[m   :message Unparsable namespace form
+[m   :data {:reason :clojure.tools.namespace.parse/unparsable-ns-form, :form []}
+[m   :at [clojure.tools.namespace.parse$deps_from_libspec invokeStatic parse.cljc 100]}]
+[m :trace
+[m [[clojure.tools.namespace.parse$deps_from_libspec invokeStatic parse.cljc 100]
+[m  [clojure.tools.namespace.parse$deps_from_libspec invoke parse.cljc 83]
+[m  [clojure.tools.namespace.parse$deps_from_ns_form$fn__9324 invoke parse.cljc 119]
+[m  [clojure.core$map$fn__5935 invoke core.clj 2772]
+[m  [clojure.lang.LazySeq sval LazySeq.java 42]
+[m  [clojure.lang.LazySeq seq LazySeq.java 51]
+[m  [clojure.lang.RT seq RT.java 535]
+[m  [clojure.core$seq__5467 invokeStatic core.clj 139]
+[m  [clojure.core$apply invokeStatic core.clj 662]
+[m  [clojure.core$mapcat invokeStatic core.clj 2800]
+[m  [clojure.core$mapcat doInvoke core.clj 2800]
+[m  [clojure.lang.RestFn invoke RestFn.java 423]
+[m  [clojure.tools.namespace.parse$deps_from_ns_form invokeStatic parse.cljc 119]
+[m  [clojure.tools.namespace.parse$deps_from_ns_form invoke parse.cljc 116]
+[m  [clojure.core$map$fn__5935 invoke core.clj 2772]
+[m  [clojure.lang.LazySeq sval LazySeq.java 42]
+[m  [clojure.lang.LazySeq seq LazySeq.java 51]
+[m  [clojure.lang.Cons next Cons.java 39]
+[m  [clojure.lang.RT boundedLength RT.java 1790]
+[m  [clojure.lang.RestFn applyTo RestFn.java 130]
+[m  [clojure.core$apply invokeStatic core.clj 667]
+[m  [clojure.core$mapcat invokeStatic core.clj 2800]
+[m  [clojure.core$mapcat doInvoke core.clj 2800]
+[m  [clojure.lang.RestFn invoke RestFn.java 423]
+[m  [clojure.tools.namespace.parse$deps_from_ns_decl invokeStatic parse.cljc 132]
+[m  [clojure.tools.namespace.parse$deps_from_ns_decl invoke parse.cljc 127]
+[m  [clojure.tools.namespace.file$files_and_deps$fn__9631 invoke file.clj 64]
+[m  [clojure.core.protocols$fn__8249 invokeStatic protocols.clj 168]
+[m  [clojure.core.protocols$fn__8249 invoke protocols.clj 124]
+[m  [clojure.core.protocols$fn__8204$G__8199__8213 invoke protocols.clj 19]
+[m  [clojure.core.protocols$seq_reduce invokeStatic protocols.clj 31]
+[m  [clojure.core.protocols$fn__8234 invokeStatic protocols.clj 75]
+[m  [clojure.core.protocols$fn__8234 invoke protocols.clj 75]
+[m  [clojure.core.protocols$fn__8178$G__8173__8191 invoke protocols.clj 13]
+[m  [clojure.core$reduce invokeStatic core.clj 6886]
+[m  [clojure.core$reduce invoke core.clj 6868]
+[m  [clojure.tools.namespace.file$files_and_deps invokeStatic file.clj 62]
+[m  [clojure.tools.namespace.file$files_and_deps invoke file.clj 61]
+[m  [clojure.tools.namespace.file$add_files invokeStatic file.clj 81]
+[m  [clojure.tools.namespace.file$add_files invoke file.clj 74]
+[m  [clojure.tools.namespace.dir$update_files invokeStatic dir.clj 42]
+[m  [clojure.tools.namespace.dir$update_files invoke dir.clj 36]
+[m  [clojure.tools.namespace.dir$scan_files invokeStatic dir.clj 68]
+[m  [clojure.tools.namespace.dir$scan_files invoke dir.clj 45]
+[m  [clojure.tools.namespace.dir$scan_dirs invokeStatic dir.clj 92]
+[m  [clojure.tools.namespace.dir$scan_dirs invoke dir.clj 71]
+[m  [clojure.tools.namespace.dir$scan invokeStatic dir.clj 105]
+[m  [clojure.tools.namespace.dir$scan doInvoke dir.clj 94]
+[m  [clojure.lang.RestFn invoke RestFn.java 410]
+[m  [clojure.lang.AFn applyToHelper AFn.java 154]
+[m  [clojure.lang.RestFn applyTo RestFn.java 132]
+[m  [clojure.core$apply invokeStatic core.clj 669]
+[m  [clojure.core$apply invoke core.clj 662]
+[m  [com.jakemccrary.test_refresh$eval16698$scan_for_changes__16699 invoke test_refresh.clj 36]
+[m  [com.jakemccrary.test_refresh$monitor_project invokeStatic test_refresh.clj 285]
+[m  [com.jakemccrary.test_refresh$monitor_project invoke test_refresh.clj 253]
+[m  [user$eval17029 invokeStatic form-init13507723162914620059.clj 1]
+[m  [user$eval17029 invoke form-init13507723162914620059.clj 1]
+[m  [clojure.lang.Compiler eval Compiler.java 7194]
+[m  [clojure.lang.Compiler eval Compiler.java 7184]
+[m  [clojure.lang.Compiler load Compiler.java 7653]
+[m  [clojure.lang.Compiler loadFile Compiler.java 7591]
+[m  [clojure.main$load_script invokeStatic main.clj 475]
+[m  [clojure.main$init_opt invokeStatic main.clj 477]
+[m  [clojure.main$init_opt invoke main.clj 477]
+[m  [clojure.main$initialize invokeStatic main.clj 508]
+[m  [clojure.main$null_opt invokeStatic main.clj 542]
+[m  [clojure.main$null_opt invoke main.clj 539]
+[m  [clojure.main$main invokeStatic main.clj 664]
+[m  [clojure.main$main doInvoke main.clj 616]
+[m  [clojure.lang.RestFn applyTo RestFn.java 137]
+[m  [clojure.lang.Var applyTo Var.java 705]
+[m  [clojure.main main main.java 40]]}
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mRan 1 tests containing 2 assertions.
+[m0 failures, 0 errors.
+
+[mPassed all tests
+[mFinished at 17:53:49.659 (run time: 0.037s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mTesting visitera.test.routes.home
+
+[mRan 1 tests containing 2 assertions.
+[m0 failures, 0 errors.
+
+[mPassed all tests
+[mFinished at 17:54:19.323 (run time: 0.042s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mTesting visitera.test.routes.home
+
+[mRan 1 tests containing 2 assertions.
+[m0 failures, 0 errors.
+
+[mPassed all tests
+[mFinished at 17:55:47.184 (run time: 0.046s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mTesting visitera.test.routes.home
+[mjava.lang.RuntimeException: could not start [#'visitera.db.core/conn] due to
+[m	at mount.core$up$fn__1195.invoke(core.cljc:80)
+[m	at mount.core$up.invokeStatic(core.cljc:80)
+[m	at mount.core$up.invoke(core.cljc:78)
+[m	at mount.core$bring.invokeStatic(core.cljc:247)
+[m	at mount.core$bring.invoke(core.cljc:239)
+[m	at mount.core$start.invokeStatic(core.cljc:289)
+[m	at mount.core$start.doInvoke(core.cljc:281)
+[m	at clojure.lang.RestFn.invoke(RestFn.java:421)
+[m	at visitera.test.routes.home$eval17652$fn__17653.invoke(home.clj:13)
+[m	at clojure.test$compose_fixtures$fn__9850$fn__9851.invoke(test.clj:694)
+[m	at clojure.test$default_fixture.invokeStatic(test.clj:687)
+[m	at clojure.test$default_fixture.invoke(test.clj:683)
+[m	at clojure.test$compose_fixtures$fn__9850.invoke(test.clj:694)
+[m	at clojure.test$test_vars.invokeStatic(test.clj:731)
+[m	at clojure.test$test_all_vars.invokeStatic(test.clj:737)
+[m	at clojure.test$test_ns.invokeStatic(test.clj:758)
+[m	at clojure.test$test_ns.invoke(test.clj:743)
+[m	at clojure.core$map$fn__5935.invoke(core.clj:2772)
+[m	at clojure.lang.LazySeq.sval(LazySeq.java:42)
+[m	at clojure.lang.LazySeq.seq(LazySeq.java:51)
+[m	at clojure.lang.Cons.next(Cons.java:39)
+[m	at clojure.lang.RT.boundedLength(RT.java:1790)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:130)
+[m	at clojure.core$apply.invokeStatic(core.clj:669)
+[m	at clojure.test$run_tests.invokeStatic(test.clj:768)
+[m	at clojure.test$run_tests.doInvoke(test.clj:768)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+[m	at clojure.core$apply.invokeStatic(core.clj:667)
+[m	at clojure.core$apply.invoke(core.clj:662)
+[m	at com.jakemccrary.test_refresh$run_selected_tests$fn__16808.invoke(test_refresh.clj:182)
+[m	at com.jakemccrary.test_refresh$suppress_unselected_tests.invokeStatic(test_refresh.clj:141)
+[m	at com.jakemccrary.test_refresh$suppress_unselected_tests.invoke(test_refresh.clj:104)
+[m	at com.jakemccrary.test_refresh$run_selected_tests.invokeStatic(test_refresh.clj:180)
+[m	at com.jakemccrary.test_refresh$run_selected_tests.invoke(test_refresh.clj:170)
+[m	at com.jakemccrary.test_refresh$run_tests.invokeStatic(test_refresh.clj:195)
+[m	at com.jakemccrary.test_refresh$run_tests.invoke(test_refresh.clj:184)
+[m	at com.jakemccrary.test_refresh$monitor_project$fn__16831.invoke(test_refresh.clj:302)
+[m	at com.jakemccrary.test_refresh$monitor_project.invokeStatic(test_refresh.clj:287)
+[m	at com.jakemccrary.test_refresh$monitor_project.invoke(test_refresh.clj:253)
+[m	at user$eval17029.invokeStatic(form-init13507723162914620059.clj:1)
+[m	at user$eval17029.invoke(form-init13507723162914620059.clj:1)
+[m	at clojure.lang.Compiler.eval(Compiler.java:7194)
+[m	at clojure.lang.Compiler.eval(Compiler.java:7184)
+[m	at clojure.lang.Compiler.load(Compiler.java:7653)
+[m	at clojure.lang.Compiler.loadFile(Compiler.java:7591)
+[m	at clojure.main$load_script.invokeStatic(main.clj:475)
+[m	at clojure.main$init_opt.invokeStatic(main.clj:477)
+[m	at clojure.main$init_opt.invoke(main.clj:477)
+[m	at clojure.main$initialize.invokeStatic(main.clj:508)
+[m	at clojure.main$null_opt.invokeStatic(main.clj:542)
+[m	at clojure.main$null_opt.invoke(main.clj:539)
+[m	at clojure.main$main.invokeStatic(main.clj:664)
+[m	at clojure.main$main.doInvoke(main.clj:616)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+[m	at clojure.lang.Var.applyTo(Var.java:705)
+[m	at clojure.main.main(main.java:40)
+[mCaused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "this.input" is null
+[m	at java.base/java.net.URI$Parser.parse(URI.java:3186)
+[m	at java.base/java.net.URI.<init>(URI.java:645)
+[m	at datomic.uri$storage_protocol.invokeStatic(uri.clj:28)
+[m	at datomic.uri$storage_protocol.invoke(uri.clj:24)
+[m	at clojure.lang.MultiFn.invoke(MultiFn.java:229)
+[m	at datomic.uri$parse.invokeStatic(uri.clj:246)
+[m	at datomic.uri$parse.invoke(uri.clj:244)
+[m	at datomic.uri$parse_db.invokeStatic(uri.clj:251)
+[m	at datomic.uri$parse_db.invoke(uri.clj:248)
+[m	at datomic.peer$create_database.invokeStatic(peer.clj:805)
+[m	at datomic.peer$create_database.invoke(peer.clj:801)
+[m	at datomic.peer$create_database.invokeStatic(peer.clj:803)
+[m	at datomic.peer$create_database.invoke(peer.clj:801)
+[m	at clojure.lang.Var.invoke(Var.java:384)
+[m	at datomic.Peer.createDatabase(Peer.java:115)
+[m	at datomic.api$create_database.invokeStatic(api.clj:24)
+[m	at datomic.api$create_database.invoke(api.clj:22)
+[m	at visitera.db.core$eval17069$fn__17070.invoke(core.clj:11)
+[m	at mount.core$record_BANG_.invokeStatic(core.cljc:74)
+[m	at mount.core$record_BANG_.invoke(core.cljc:73)
+[m	at mount.core$up$fn__1195.invoke(core.cljc:81)
+[m	... 55 more
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mTesting visitera.test.routes.home
+[mjava.lang.RuntimeException: could not start [#'visitera.db.core/conn] due to
+[m	at mount.core$up$fn__1195.invoke(core.cljc:80)
+[m	at mount.core$up.invokeStatic(core.cljc:80)
+[m	at mount.core$up.invoke(core.cljc:78)
+[m	at mount.core$bring.invokeStatic(core.cljc:247)
+[m	at mount.core$bring.invoke(core.cljc:239)
+[m	at mount.core$start.invokeStatic(core.cljc:289)
+[m	at mount.core$start.doInvoke(core.cljc:281)
+[m	at clojure.lang.RestFn.invoke(RestFn.java:421)
+[m	at visitera.test.routes.home$eval17679$fn__17680.invoke(home.clj:14)
+[m	at clojure.test$compose_fixtures$fn__9850$fn__9851.invoke(test.clj:694)
+[m	at clojure.test$default_fixture.invokeStatic(test.clj:687)
+[m	at clojure.test$default_fixture.invoke(test.clj:683)
+[m	at clojure.test$compose_fixtures$fn__9850.invoke(test.clj:694)
+[m	at clojure.test$test_vars.invokeStatic(test.clj:731)
+[m	at clojure.test$test_all_vars.invokeStatic(test.clj:737)
+[m	at clojure.test$test_ns.invokeStatic(test.clj:758)
+[m	at clojure.test$test_ns.invoke(test.clj:743)
+[m	at clojure.core$map$fn__5935.invoke(core.clj:2772)
+[m	at clojure.lang.LazySeq.sval(LazySeq.java:42)
+[m	at clojure.lang.LazySeq.seq(LazySeq.java:51)
+[m	at clojure.lang.Cons.next(Cons.java:39)
+[m	at clojure.lang.RT.boundedLength(RT.java:1790)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:130)
+[m	at clojure.core$apply.invokeStatic(core.clj:669)
+[m	at clojure.test$run_tests.invokeStatic(test.clj:768)
+[m	at clojure.test$run_tests.doInvoke(test.clj:768)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+[m	at clojure.core$apply.invokeStatic(core.clj:667)
+[m	at clojure.core$apply.invoke(core.clj:662)
+[m	at com.jakemccrary.test_refresh$run_selected_tests$fn__16808.invoke(test_refresh.clj:182)
+[m	at com.jakemccrary.test_refresh$suppress_unselected_tests.invokeStatic(test_refresh.clj:141)
+[m	at com.jakemccrary.test_refresh$suppress_unselected_tests.invoke(test_refresh.clj:104)
+[m	at com.jakemccrary.test_refresh$run_selected_tests.invokeStatic(test_refresh.clj:180)
+[m	at com.jakemccrary.test_refresh$run_selected_tests.invoke(test_refresh.clj:170)
+[m	at com.jakemccrary.test_refresh$run_tests.invokeStatic(test_refresh.clj:195)
+[m	at com.jakemccrary.test_refresh$run_tests.invoke(test_refresh.clj:184)
+[m	at com.jakemccrary.test_refresh$monitor_project$fn__16831.invoke(test_refresh.clj:302)
+[m	at com.jakemccrary.test_refresh$monitor_project.invokeStatic(test_refresh.clj:287)
+[m	at com.jakemccrary.test_refresh$monitor_project.invoke(test_refresh.clj:253)
+[m	at user$eval17029.invokeStatic(form-init13507723162914620059.clj:1)
+[m	at user$eval17029.invoke(form-init13507723162914620059.clj:1)
+[m	at clojure.lang.Compiler.eval(Compiler.java:7194)
+[m	at clojure.lang.Compiler.eval(Compiler.java:7184)
+[m	at clojure.lang.Compiler.load(Compiler.java:7653)
+[m	at clojure.lang.Compiler.loadFile(Compiler.java:7591)
+[m	at clojure.main$load_script.invokeStatic(main.clj:475)
+[m	at clojure.main$init_opt.invokeStatic(main.clj:477)
+[m	at clojure.main$init_opt.invoke(main.clj:477)
+[m	at clojure.main$initialize.invokeStatic(main.clj:508)
+[m	at clojure.main$null_opt.invokeStatic(main.clj:542)
+[m	at clojure.main$null_opt.invoke(main.clj:539)
+[m	at clojure.main$main.invokeStatic(main.clj:664)
+[m	at clojure.main$main.doInvoke(main.clj:616)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+[m	at clojure.lang.Var.applyTo(Var.java:705)
+[m	at clojure.main.main(main.java:40)
+[mCaused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "this.input" is null
+[m	at java.base/java.net.URI$Parser.parse(URI.java:3186)
+[m	at java.base/java.net.URI.<init>(URI.java:645)
+[m	at datomic.uri$storage_protocol.invokeStatic(uri.clj:28)
+[m	at datomic.uri$storage_protocol.invoke(uri.clj:24)
+[m	at clojure.lang.MultiFn.invoke(MultiFn.java:229)
+[m	at datomic.uri$parse.invokeStatic(uri.clj:246)
+[m	at datomic.uri$parse.invoke(uri.clj:244)
+[m	at datomic.uri$parse_db.invokeStatic(uri.clj:251)
+[m	at datomic.uri$parse_db.invoke(uri.clj:248)
+[m	at datomic.peer$create_database.invokeStatic(peer.clj:805)
+[m	at datomic.peer$create_database.invoke(peer.clj:801)
+[m	at datomic.peer$create_database.invokeStatic(peer.clj:803)
+[m	at datomic.peer$create_database.invoke(peer.clj:801)
+[m	at clojure.lang.Var.invoke(Var.java:384)
+[m	at datomic.Peer.createDatabase(Peer.java:115)
+[m	at datomic.api$create_database.invokeStatic(api.clj:24)
+[m	at datomic.api$create_database.invoke(api.clj:22)
+[m	at visitera.db.core$eval17069$fn__17070.invoke(core.clj:11)
+[m	at mount.core$record_BANG_.invokeStatic(core.cljc:74)
+[m	at mount.core$record_BANG_.invoke(core.cljc:73)
+[m	at mount.core$up$fn__1195.invoke(core.cljc:81)
+[m	... 55 more
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+[m:error-while-loading visitera.test.routes.home
+
+[mError refreshing environment: Syntax error compiling at (visitera/test/routes/home.clj:18:5). java.lang.RuntimeException: Unable to res
+[molve symbol: delete-database in this context
+[mFinished at 17:56:54.897 (run time: 0.180s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+[m:error-while-loading visitera.test.routes.home
+
+[mError refreshing environment: Syntax error compiling var at (visitera/test/routes/home.clj:19:5). java.lang.RuntimeException: Unable to
+[m resolve var: visitera in this context
+[mFinished at 17:57:08.303 (run time: 0.173s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mTesting visitera.test.routes.home
+[mjava.lang.RuntimeException: could not start [#'visitera.db.core/conn] due to
+[m	at mount.core$up$fn__1195.invoke(core.cljc:80)
+[m	at mount.core$up.invokeStatic(core.cljc:80)
+[m	at mount.core$up.invoke(core.cljc:78)
+[m	at mount.core$bring.invokeStatic(core.cljc:247)
+[m	at mount.core$bring.invoke(core.cljc:239)
+[m	at mount.core$start.invokeStatic(core.cljc:289)
+[m	at mount.core$start.doInvoke(core.cljc:281)
+[m	at clojure.lang.RestFn.invoke(RestFn.java:421)
+[m	at visitera.test.routes.home$eval17732$fn__17733.invoke(home.clj:14)
+[m	at clojure.test$compose_fixtures$fn__9850$fn__9851.invoke(test.clj:694)
+[m	at clojure.test$default_fixture.invokeStatic(test.clj:687)
+[m	at clojure.test$default_fixture.invoke(test.clj:683)
+[m	at clojure.test$compose_fixtures$fn__9850.invoke(test.clj:694)
+[m	at clojure.test$test_vars.invokeStatic(test.clj:731)
+[m	at clojure.test$test_all_vars.invokeStatic(test.clj:737)
+[m	at clojure.test$test_ns.invokeStatic(test.clj:758)
+[m	at clojure.test$test_ns.invoke(test.clj:743)
+[m	at clojure.core$map$fn__5935.invoke(core.clj:2772)
+[m	at clojure.lang.LazySeq.sval(LazySeq.java:42)
+[m	at clojure.lang.LazySeq.seq(LazySeq.java:51)
+[m	at clojure.lang.Cons.next(Cons.java:39)
+[m	at clojure.lang.RT.boundedLength(RT.java:1790)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:130)
+[m	at clojure.core$apply.invokeStatic(core.clj:669)
+[m	at clojure.test$run_tests.invokeStatic(test.clj:768)
+[m	at clojure.test$run_tests.doInvoke(test.clj:768)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+[m	at clojure.core$apply.invokeStatic(core.clj:667)
+[m	at clojure.core$apply.invoke(core.clj:662)
+[m	at com.jakemccrary.test_refresh$run_selected_tests$fn__16808.invoke(test_refresh.clj:182)
+[m	at com.jakemccrary.test_refresh$suppress_unselected_tests.invokeStatic(test_refresh.clj:141)
+[m	at com.jakemccrary.test_refresh$suppress_unselected_tests.invoke(test_refresh.clj:104)
+[m	at com.jakemccrary.test_refresh$run_selected_tests.invokeStatic(test_refresh.clj:180)
+[m	at com.jakemccrary.test_refresh$run_selected_tests.invoke(test_refresh.clj:170)
+[m	at com.jakemccrary.test_refresh$run_tests.invokeStatic(test_refresh.clj:195)
+[m	at com.jakemccrary.test_refresh$run_tests.invoke(test_refresh.clj:184)
+[m	at com.jakemccrary.test_refresh$monitor_project$fn__16831.invoke(test_refresh.clj:302)
+[m	at com.jakemccrary.test_refresh$monitor_project.invokeStatic(test_refresh.clj:287)
+[m	at com.jakemccrary.test_refresh$monitor_project.invoke(test_refresh.clj:253)
+[m	at user$eval17029.invokeStatic(form-init13507723162914620059.clj:1)
+[m	at user$eval17029.invoke(form-init13507723162914620059.clj:1)
+[m	at clojure.lang.Compiler.eval(Compiler.java:7194)
+[m	at clojure.lang.Compiler.eval(Compiler.java:7184)
+[m	at clojure.lang.Compiler.load(Compiler.java:7653)
+[m	at clojure.lang.Compiler.loadFile(Compiler.java:7591)
+[m	at clojure.main$load_script.invokeStatic(main.clj:475)
+[m	at clojure.main$init_opt.invokeStatic(main.clj:477)
+[m	at clojure.main$init_opt.invoke(main.clj:477)
+[m	at clojure.main$initialize.invokeStatic(main.clj:508)
+[m	at clojure.main$null_opt.invokeStatic(main.clj:542)
+[m	at clojure.main$null_opt.invoke(main.clj:539)
+[m	at clojure.main$main.invokeStatic(main.clj:664)
+[m	at clojure.main$main.doInvoke(main.clj:616)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+[m	at clojure.lang.Var.applyTo(Var.java:705)
+[m	at clojure.main.main(main.java:40)
+[mCaused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "this.input" is null
+[m	at java.base/java.net.URI$Parser.parse(URI.java:3186)
+[m	at java.base/java.net.URI.<init>(URI.java:645)
+[m	at datomic.uri$storage_protocol.invokeStatic(uri.clj:28)
+[m	at datomic.uri$storage_protocol.invoke(uri.clj:24)
+[m	at clojure.lang.MultiFn.invoke(MultiFn.java:229)
+[m	at datomic.uri$parse.invokeStatic(uri.clj:246)
+[m	at datomic.uri$parse.invoke(uri.clj:244)
+[m	at datomic.uri$parse_db.invokeStatic(uri.clj:251)
+[m	at datomic.uri$parse_db.invoke(uri.clj:248)
+[m	at datomic.peer$create_database.invokeStatic(peer.clj:805)
+[m	at datomic.peer$create_database.invoke(peer.clj:801)
+[m	at datomic.peer$create_database.invokeStatic(peer.clj:803)
+[m	at datomic.peer$create_database.invoke(peer.clj:801)
+[m	at clojure.lang.Var.invoke(Var.java:384)
+[m	at datomic.Peer.createDatabase(Peer.java:115)
+[m	at datomic.api$create_database.invokeStatic(api.clj:24)
+[m	at datomic.api$create_database.invoke(api.clj:22)
+[m	at visitera.db.core$eval17069$fn__17070.invoke(core.clj:11)
+[m	at mount.core$record_BANG_.invokeStatic(core.cljc:74)
+[m	at mount.core$record_BANG_.invoke(core.cljc:73)
+[m	at mount.core$up$fn__1195.invoke(core.cljc:81)
+[m	... 55 more
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+[m:error-while-loading visitera.test.routes.home
+
+[mError refreshing environment: Syntax error macroexpanding at (visitera/test/routes/home.clj:22:1). clojure.lang.ArityException: Wrong n
+[mumber of args (0) passed to: clojure.test/deftest
+[mFinished at 17:58:28.155 (run time: 0.166s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mTesting visitera.test.routes.home
+[mjava.lang.RuntimeException: could not start [#'visitera.db.core/conn] due to
+[m	at mount.core$up$fn__1195.invoke(core.cljc:80)
+[m	at mount.core$up.invokeStatic(core.cljc:80)
+[m	at mount.core$up.invoke(core.cljc:78)
+[m	at mount.core$bring.invokeStatic(core.cljc:247)
+[m	at mount.core$bring.invoke(core.cljc:239)
+[m	at mount.core$start.invokeStatic(core.cljc:289)
+[m	at mount.core$start.doInvoke(core.cljc:281)
+[m	at clojure.lang.RestFn.invoke(RestFn.java:421)
+[m	at visitera.test.routes.home$eval17774$fn__17775.invoke(home.clj:14)
+[m	at clojure.test$compose_fixtures$fn__9850$fn__9851.invoke(test.clj:694)
+[m	at clojure.test$default_fixture.invokeStatic(test.clj:687)
+[m	at clojure.test$default_fixture.invoke(test.clj:683)
+[m	at clojure.test$compose_fixtures$fn__9850.invoke(test.clj:694)
+[m	at clojure.test$test_vars.invokeStatic(test.clj:731)
+[m	at clojure.test$test_all_vars.invokeStatic(test.clj:737)
+[m	at clojure.test$test_ns.invokeStatic(test.clj:758)
+[m	at clojure.test$test_ns.invoke(test.clj:743)
+[m	at clojure.core$map$fn__5935.invoke(core.clj:2772)
+[m	at clojure.lang.LazySeq.sval(LazySeq.java:42)
+[m	at clojure.lang.LazySeq.seq(LazySeq.java:51)
+[m	at clojure.lang.Cons.next(Cons.java:39)
+[m	at clojure.lang.RT.boundedLength(RT.java:1790)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:130)
+[m	at clojure.core$apply.invokeStatic(core.clj:669)
+[m	at clojure.test$run_tests.invokeStatic(test.clj:768)
+[m	at clojure.test$run_tests.doInvoke(test.clj:768)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+[m	at clojure.core$apply.invokeStatic(core.clj:667)
+[m	at clojure.core$apply.invoke(core.clj:662)
+[m	at com.jakemccrary.test_refresh$run_selected_tests$fn__16808.invoke(test_refresh.clj:182)
+[m	at com.jakemccrary.test_refresh$suppress_unselected_tests.invokeStatic(test_refresh.clj:141)
+[m	at com.jakemccrary.test_refresh$suppress_unselected_tests.invoke(test_refresh.clj:104)
+[m	at com.jakemccrary.test_refresh$run_selected_tests.invokeStatic(test_refresh.clj:180)
+[m	at com.jakemccrary.test_refresh$run_selected_tests.invoke(test_refresh.clj:170)
+[m	at com.jakemccrary.test_refresh$run_tests.invokeStatic(test_refresh.clj:195)
+[m	at com.jakemccrary.test_refresh$run_tests.invoke(test_refresh.clj:184)
+[m	at com.jakemccrary.test_refresh$monitor_project$fn__16831.invoke(test_refresh.clj:302)
+[m	at com.jakemccrary.test_refresh$monitor_project.invokeStatic(test_refresh.clj:287)
+[m	at com.jakemccrary.test_refresh$monitor_project.invoke(test_refresh.clj:253)
+[m	at user$eval17029.invokeStatic(form-init13507723162914620059.clj:1)
+[m	at user$eval17029.invoke(form-init13507723162914620059.clj:1)
+[m	at clojure.lang.Compiler.eval(Compiler.java:7194)
+[m	at clojure.lang.Compiler.eval(Compiler.java:7184)
+[m	at clojure.lang.Compiler.load(Compiler.java:7653)
+[m	at clojure.lang.Compiler.loadFile(Compiler.java:7591)
+[m	at clojure.main$load_script.invokeStatic(main.clj:475)
+[m	at clojure.main$init_opt.invokeStatic(main.clj:477)
+[m	at clojure.main$init_opt.invoke(main.clj:477)
+[m	at clojure.main$initialize.invokeStatic(main.clj:508)
+[m	at clojure.main$null_opt.invokeStatic(main.clj:542)
+[m	at clojure.main$null_opt.invoke(main.clj:539)
+[m	at clojure.main$main.invokeStatic(main.clj:664)
+[m	at clojure.main$main.doInvoke(main.clj:616)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+[m	at clojure.lang.Var.applyTo(Var.java:705)
+[m	at clojure.main.main(main.java:40)
+[mCaused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "this.input" is null
+[m	at java.base/java.net.URI$Parser.parse(URI.java:3186)
+[m	at java.base/java.net.URI.<init>(URI.java:645)
+[m	at datomic.uri$storage_protocol.invokeStatic(uri.clj:28)
+[m	at datomic.uri$storage_protocol.invoke(uri.clj:24)
+[m	at clojure.lang.MultiFn.invoke(MultiFn.java:229)
+[m	at datomic.uri$parse.invokeStatic(uri.clj:246)
+[m	at datomic.uri$parse.invoke(uri.clj:244)
+[m	at datomic.uri$parse_db.invokeStatic(uri.clj:251)
+[m	at datomic.uri$parse_db.invoke(uri.clj:248)
+[m	at datomic.peer$create_database.invokeStatic(peer.clj:805)
+[m	at datomic.peer$create_database.invoke(peer.clj:801)
+[m	at datomic.peer$create_database.invokeStatic(peer.clj:803)
+[m	at datomic.peer$create_database.invoke(peer.clj:801)
+[m	at clojure.lang.Var.invoke(Var.java:384)
+[m	at datomic.Peer.createDatabase(Peer.java:115)
+[m	at datomic.api$create_database.invokeStatic(api.clj:24)
+[m	at datomic.api$create_database.invoke(api.clj:22)
+[m	at visitera.db.core$eval17069$fn__17070.invoke(core.clj:11)
+[m	at mount.core$record_BANG_.invokeStatic(core.cljc:74)
+[m	at mount.core$record_BANG_.invoke(core.cljc:73)
+[m	at mount.core$up$fn__1195.invoke(core.cljc:81)
+[m	... 55 more
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+[m:error-while-loading visitera.test.routes.home
+
+[mError refreshing environment: Syntax error compiling at (visitera/test/routes/home.clj:26:22). java.lang.RuntimeException: Unable to re
+[msolve symbol: regist in this context
+[mFinished at 17:59:34.589 (run time: 0.221s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+[m:error-while-loading visitera.test.routes.home
+
+[mError refreshing environment: Syntax error compiling at (visitera/test/routes/home.clj:26:22). java.lang.RuntimeException: Unable to re
+[msolve symbol: regist in this context
+[mFinished at 17:59:47.939 (run time: 0.151s)
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mTesting visitera.test.routes.home
+[mjava.lang.RuntimeException: could not start [#'visitera.db.core/conn] due to
+[m	at mount.core$up$fn__1195.invoke(core.cljc:80)
+[m	at mount.core$up.invokeStatic(core.cljc:80)
+[m	at mount.core$up.invoke(core.cljc:78)
+[m	at mount.core$bring.invokeStatic(core.cljc:247)
+[m	at mount.core$bring.invoke(core.cljc:239)
+[m	at mount.core$start.invokeStatic(core.cljc:289)
+[m	at mount.core$start.doInvoke(core.cljc:281)
+[m	at clojure.lang.RestFn.invoke(RestFn.java:421)
+[m	at visitera.test.routes.home$eval17840$fn__17841.invoke(home.clj:15)
+[m	at clojure.test$compose_fixtures$fn__9850$fn__9851.invoke(test.clj:694)
+[m	at clojure.test$default_fixture.invokeStatic(test.clj:687)
+[m	at clojure.test$default_fixture.invoke(test.clj:683)
+[m	at clojure.test$compose_fixtures$fn__9850.invoke(test.clj:694)
+[m	at clojure.test$test_vars.invokeStatic(test.clj:731)
+[m	at clojure.test$test_all_vars.invokeStatic(test.clj:737)
+[m	at clojure.test$test_ns.invokeStatic(test.clj:758)
+[m	at clojure.test$test_ns.invoke(test.clj:743)
+[m	at clojure.core$map$fn__5935.invoke(core.clj:2772)
+[m	at clojure.lang.LazySeq.sval(LazySeq.java:42)
+[m	at clojure.lang.LazySeq.seq(LazySeq.java:51)
+[m	at clojure.lang.Cons.next(Cons.java:39)
+[m	at clojure.lang.RT.boundedLength(RT.java:1790)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:130)
+[m	at clojure.core$apply.invokeStatic(core.clj:669)
+[m	at clojure.test$run_tests.invokeStatic(test.clj:768)
+[m	at clojure.test$run_tests.doInvoke(test.clj:768)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+[m	at clojure.core$apply.invokeStatic(core.clj:667)
+[m	at clojure.core$apply.invoke(core.clj:662)
+[m	at com.jakemccrary.test_refresh$run_selected_tests$fn__16808.invoke(test_refresh.clj:182)
+[m	at com.jakemccrary.test_refresh$suppress_unselected_tests.invokeStatic(test_refresh.clj:141)
+[m	at com.jakemccrary.test_refresh$suppress_unselected_tests.invoke(test_refresh.clj:104)
+[m	at com.jakemccrary.test_refresh$run_selected_tests.invokeStatic(test_refresh.clj:180)
+[m	at com.jakemccrary.test_refresh$run_selected_tests.invoke(test_refresh.clj:170)
+[m	at com.jakemccrary.test_refresh$run_tests.invokeStatic(test_refresh.clj:195)
+[m	at com.jakemccrary.test_refresh$run_tests.invoke(test_refresh.clj:184)
+[m	at com.jakemccrary.test_refresh$monitor_project$fn__16831.invoke(test_refresh.clj:302)
+[m	at com.jakemccrary.test_refresh$monitor_project.invokeStatic(test_refresh.clj:287)
+[m	at com.jakemccrary.test_refresh$monitor_project.invoke(test_refresh.clj:253)
+[m	at user$eval17029.invokeStatic(form-init13507723162914620059.clj:1)
+[m	at user$eval17029.invoke(form-init13507723162914620059.clj:1)
+[m	at clojure.lang.Compiler.eval(Compiler.java:7194)
+[m	at clojure.lang.Compiler.eval(Compiler.java:7184)
+[m	at clojure.lang.Compiler.load(Compiler.java:7653)
+[m	at clojure.lang.Compiler.loadFile(Compiler.java:7591)
+[m	at clojure.main$load_script.invokeStatic(main.clj:475)
+[m	at clojure.main$init_opt.invokeStatic(main.clj:477)
+[m	at clojure.main$init_opt.invoke(main.clj:477)
+[m	at clojure.main$initialize.invokeStatic(main.clj:508)
+[m	at clojure.main$null_opt.invokeStatic(main.clj:542)
+[m	at clojure.main$null_opt.invoke(main.clj:539)
+[m	at clojure.main$main.invokeStatic(main.clj:664)
+[m	at clojure.main$main.doInvoke(main.clj:616)
+[m	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+[m	at clojure.lang.Var.applyTo(Var.java:705)
+[m	at clojure.main.main(main.java:40)
+[mCaused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "this.input" is null
+[m	at java.base/java.net.URI$Parser.parse(URI.java:3186)
+[m	at java.base/java.net.URI.<init>(URI.java:645)
+[m	at datomic.uri$storage_protocol.invokeStatic(uri.clj:28)
+[m	at datomic.uri$storage_protocol.invoke(uri.clj:24)
+[m	at clojure.lang.MultiFn.invoke(MultiFn.java:229)
+[m	at datomic.uri$parse.invokeStatic(uri.clj:246)
+[m	at datomic.uri$parse.invoke(uri.clj:244)
+[m	at datomic.uri$parse_db.invokeStatic(uri.clj:251)
+[m	at datomic.uri$parse_db.invoke(uri.clj:248)
+[m	at datomic.peer$create_database.invokeStatic(peer.clj:805)
+[m	at datomic.peer$create_database.invoke(peer.clj:801)
+[m	at datomic.peer$create_database.invokeStatic(peer.clj:803)
+[m	at datomic.peer$create_database.invoke(peer.clj:801)
+[m	at clojure.lang.Var.invoke(Var.java:384)
+[m	at datomic.Peer.createDatabase(Peer.java:115)
+[m	at datomic.api$create_database.invokeStatic(api.clj:24)
+[m	at datomic.api$create_database.invoke(api.clj:22)
+[m	at visitera.db.core$eval17069$fn__17070.invoke(core.clj:11)
+[m	at mount.core$record_BANG_.invokeStatic(core.cljc:74)
+[m	at mount.core$record_BANG_.invoke(core.cljc:73)
+[m	at mount.core$up$fn__1195.invoke(core.cljc:81)
+[m	... 55 more
+[m^C[2m⏎[22m                                                                                                                                    
+[m]133;A\[38:2:68:131:84m╭─[38:2:223:0:95mdevin[38:2:255:255:255m at [38:2:223:95:0mdevin[38:2:255:255:255m in [38:2:135:255:0m⌁/projects/clojure/visitera[37m ([38:2:95:223:255mmaster [38:2:223:95:0m…18[37m)
+[m[38:2:68:131:84m╰─[38:2:255:255:255mλ [34mlein[39m [36mtest-refresh[39m                                                                                   [1;32m(base) [22m0[96m (12:50.298)[38:2:102:102:102m < 18:00:58
+[m]133;C\WARNING: parse-double already refers to: #'clojure.core/parse-double in namespace: cuerdas.core, being replaced by: #'cuerdas.core/pars
+[me-double
+[mWARNING: parse-long already refers to: #'clojure.core/parse-long in namespace: cuerdas.core, being replaced by: #'cuerdas.core/parse-lo
+[mng
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.middleware.formats visitera.config visitera.db.core visitera.dev-middleware visitera.env visitera.layout visitera.
+[mmiddleware visitera.validation visitera.routes.home visitera.test.routes.home visitera.handler visitera.nrepl visitera.core visitera.ha
+[mndler-test user)
+
+[mTesting visitera.handler-test
+
+[mTesting visitera.test.routes.home
+[m2024-01-01 18:01:29,431 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :create-database, :arg {:db-name "visitera_dev"}, :phas
+[me :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:29,449 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :phase :begin, :pid 30819, 
+[m:tid 1} 
+[m2024-01-01 18:01:29,456 [clojure-agent-send-off-pool-0] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mphase :begin, :pid 30819, :tid 90} 
+[m2024-01-01 18:01:29,625 [clojure-agent-send-off-pool-0] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mmsec 168.0, :phase :end, :pid 30819, :tid 90} 
+[m2024-01-01 18:01:29,628 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :msec 179.0, :phase :end, :
+[mpid 30819, :tid 1} 
+[m2024-01-01 18:01:29,629 [main] DEBUG datomic.connector - {:event :peer/hornet-connect, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:01:29,644 [main] DEBUG o.a.a.artemis.utils.UUIDGenerator - using hardware address 10:63:ffffffc8:fffffff6:57:59 
+[m2024-01-01 18:01:29,699 [main] DEBUG o.a.a.a.c.c.i.ClientSessionFactoryImpl - Trying reconnection attempt 0/1 
+[m2024-01-01 18:01:29,699 [main] DEBUG o.a.a.a.c.c.i.ClientSessionFactoryImpl - Trying to connect with connectorFactory=org.apache.active
+[mmq.artemis.core.remoting.impl.netty.NettyConnectorFactory@12a7df1f and currentConnectorConfig: TransportConfiguration(name=bbe7c342-a88
+[mc-11ee-a49d-1063c8f6573b, factory=org-apache-activemq-artemis-core-remoting-impl-netty-NettyConnectorFactory) ?verifyHost=false&trustSt
+[morePath=datomic/transactor-trust-jks&trustStorePassword=****&port=4334&sslEnabled=true&keyStorePath=datomic/transactor-key-jks&keyStore
+[mPassword=****&host=localhost 
+[m2024-01-01 18:01:29,729 [main] DEBUG i.n.u.i.l.InternalLoggerFactory - Using SLF4J as the default logging framework 
+[m2024-01-01 18:01:29,732 [main] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false 
+[m2024-01-01 18:01:29,733 [main] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 21 
+[m2024-01-01 18:01:29,734 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available 
+[m2024-01-01 18:01:29,735 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available 
+[m2024-01-01 18:01:29,735 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available 
+[m2024-01-01 18:01:29,737 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available 
+[m2024-01-01 18:01:29,738 [main] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAcces
+[msible(true) disabled 
+[m2024-01-01 18:01:29,740 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true 
+[m2024-01-01 18:01:29,742 [main] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): u
+[mnavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) becaus
+[me module java.base does not export jdk.internal.misc to unnamed module @8504151 
+[m2024-01-01 18:01:29,743 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavail
+[mable 
+[m2024-01-01 18:01:29,744 [main] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available 
+[m2024-01-01 18:01:29,744 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir) 
+[m2024-01-01 18:01:29,744 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model) 
+[m2024-01-01 18:01:29,746 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes 
+[m2024-01-01 18:01:29,746 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1 
+[m2024-01-01 18:01:29,748 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available 
+[m2024-01-01 18:01:29,749 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false 
+[m2024-01-01 18:01:29,755 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple 
+[m2024-01-01 18:01:29,755 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4 
+[m2024-01-01 18:01:29,792 [main] DEBUG i.n.u.internal.NativeLibraryLoader - -Dio.netty.native.workdir: /tmp (io.netty.tmpdir) 
+[m2024-01-01 18:01:29,792 [main] DEBUG i.n.u.internal.NativeLibraryLoader - -Dio.netty.native.deleteLibAfterLoading: true 
+[m2024-01-01 18:01:29,792 [main] DEBUG i.n.u.internal.NativeLibraryLoader - -Dio.netty.native.tryPatchShadedId: true 
+[m2024-01-01 18:01:29,792 [main] DEBUG i.n.u.internal.NativeLibraryLoader - -Dio.netty.native.detectNativeLibraryDuplicates: true 
+[m2024-01-01 18:01:29,807 [main] DEBUG i.n.u.internal.NativeLibraryLoader - Successfully loaded the library /tmp/libnetty_transport_nativ
+[me_epoll_x86_647780417140973853858.so 
+[m2024-01-01 18:01:29,814 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false 
+[m2024-01-01 18:01:29,814 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false 
+[m2024-01-01 18:01:29,818 [main] DEBUG i.netty.util.NetUtilInitializations - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo) 
+[m2024-01-01 18:01:29,821 [main] DEBUG io.netty.util.NetUtil - /proc/sys/net/core/somaxconn: 4096 
+[m2024-01-01 18:01:29,834 [main] DEBUG i.n.c.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16 
+[m2024-01-01 18:01:29,852 [main] DEBUG i.n.u.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1 
+[m2024-01-01 18:01:29,866 [main] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024 
+[m2024-01-01 18:01:29,866 [main] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096 
+[m2024-01-01 18:01:29,889 [main] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available 
+[m2024-01-01 18:01:29,908 [main] DEBUG o.a.a.a.c.r.i.netty.NettyConnector - Connector NettyConnector [host=localhost, port=4334, httpEnab
+[mled=false, httpUpgradeEnabled=false, useServlet=false, servletPath=/messaging/ActiveMQServlet, sslEnabled=true, useNio=true] using nati
+[mve epoll 
+[m2024-01-01 18:01:29,959 [main] DEBUG o.a.a.a.c.r.i.netty.NettyConnector - Started EPOLL Netty Connector version 4.1.100.Final to localh
+[most:4334 
+[m2024-01-01 18:01:29,960 [main] DEBUG o.a.a.a.c.r.i.netty.NettyConnector - Remote destination: localhost/127.0.0.1:4334 
+[m2024-01-01 18:01:29,975 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 30819 (auto-detected) 
+[m2024-01-01 18:01:29,979 [main] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 10:63:c8:ff:fe:f6:57:3b (auto-detected) 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0 
+[m2024-01-01 18:01:30,024 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false 
+[m2024-01-01 18:01:30,025 [main] DEBUG i.n.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023 
+[m2024-01-01 18:01:30,046 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled 
+[m2024-01-01 18:01:30,047 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0 
+[m2024-01-01 18:01:30,047 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384 
+[m2024-01-01 18:01:30,068 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG o.a.a.a.c.r.i.s.DefaultSSLContextFactory - Creating JDK SSLCon
+[mtext with SSLSupport [keystoreProvider=null, keystorePath=datomic/transactor-key.jks, keystoreType=JKS, keystorePassword=******, trusts
+[mtoreProvider=null, truststorePath=datomic/transactor-trust.jks, truststoreType=JKS, truststorePassword=******, crlPath=null, trustAll=f
+[malse, trustManagerFactoryPlugin=null, keystoreAlias=null] 
+[m2024-01-01 18:01:30,220 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG o.a.a.a.c.r.i.netty.NettyConnector - Added ActiveMQClientChann
+[melHandler to Channel with id = 527c4588  
+[m2024-01-01 18:01:30,350 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThr
+[mead: 4096 
+[m2024-01-01 18:01:30,350 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8 
+[m2024-01-01 18:01:30,350 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32 
+[m2024-01-01 18:01:30,350 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false 
+[m2024-01-01 18:01:30,350 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLo
+[mcalOnly: true 
+[m2024-01-01 18:01:30,362 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAcces
+[msible: true 
+[m2024-01-01 18:01:30,362 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBound
+[ms: true 
+[m2024-01-01 18:01:30,363 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default Resource
+[mLeakDetector: io.netty.util.ResourceLeakDetector@7c13e067 
+[m2024-01-01 18:01:30,444 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG io.netty.handler.ssl.SslHandler - [id: 0x527c4588, L:/127.0.0.
+[m1:57508 - R:localhost/127.0.0.1:4334] HANDSHAKEN: protocol:TLSv1.3 cipher suite:TLS_AES_256_GCM_SHA384 
+[m2024-01-01 18:01:30,448 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG o.a.a.a.c.c.i.ClientSessionFactoryImpl - TheConn == null on Cl
+[mientSessionFactoryImpl::DelegatingBufferHandler, ignoring packet 
+[m2024-01-01 18:01:30,447 [main] DEBUG o.a.a.a.c.c.i.ClientSessionFactoryImpl - Connected with the currentConnectorConfig=TransportConfig
+[muration(name=bbe7c342-a88c-11ee-a49d-1063c8f6573b, factory=org-apache-activemq-artemis-core-remoting-impl-netty-NettyConnectorFactory) 
+[m?verifyHost=false&trustStorePath=datomic/transactor-trust-jks&trustStorePassword=****&port=4334&sslEnabled=true&keyStorePath=datomic/tr
+[mansactor-key-jks&keyStorePassword=****&host=localhost 
+[m2024-01-01 18:01:30,453 [Thread-0 (ActiveMQ-client-netty-threads)] DEBUG o.a.a.a.c.c.i.ClientSessionFactoryImpl - TheConn == null on Cl
+[mientSessionFactoryImpl::DelegatingBufferHandler, ignoring packet 
+[m2024-01-01 18:01:30,500 [main] DEBUG o.a.a.a.c.c.i.ClientSessionFactoryImpl - Reconnection successful 
+[m2024-01-01 18:01:30,500 [main] DEBUG o.a.a.a.c.c.i.ClientSessionFactoryImpl - ClientSessionFactoryImpl received backup update for live/
+[mbackup pair = TransportConfiguration(name=bbe7c342-a88c-11ee-a49d-1063c8f6573b, factory=org-apache-activemq-artemis-core-remoting-impl-
+[mnetty-NettyConnectorFactory) ?verifyHost=false&trustStorePath=datomic/transactor-trust-jks&trustStorePassword=****&port=4334&sslEnabled
+[m=true&keyStorePath=datomic/transactor-key-jks&keyStorePassword=****&host=localhost / null  but it didn't belong to TransportConfigurati
+[mon(name=bbe7c342-a88c-11ee-a49d-1063c8f6573b, factory=org-apache-activemq-artemis-core-remoting-impl-netty-NettyConnectorFactory) ?veri
+[mfyHost=false&trustStorePath=datomic/transactor-trust-jks&trustStorePassword=****&port=4334&sslEnabled=true&keyStorePath=datomic/transac
+[mtor-key-jks&keyStorePassword=****&host=localhost 
+[m2024-01-01 18:01:30,565 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address admin.request, ne
+[meded = 131072, arriving = 0 
+[m2024-01-01 18:01:30,565 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address admin.request 
+[m2024-01-01 18:01:30,626 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on admin.request 
+[m2024-01-01 18:01:30,627 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 147 credits on address admin.request, pen
+[mdingCredits=130925 
+[m2024-01-01 18:01:30,666 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=bc6caab5-a88
+[mc-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.co
+[mre.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@3657d991 
+[m2024-01-01 18:01:30,672 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=bc6caab5-a88c-11ee
+[m-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.core.cli
+[ment.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@3657d991 
+[m2024-01-01 18:01:30,693 [main] DEBUG datomic.connector - {:event :peer/admin-request, :request :create-database, :return {:exists "visi
+[mtera_dev"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,693 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :create-database, :arg {:db-name "visitera_dev"}, :msec
+[m 1260.0, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,718 [main] INFO  datomic.process-monitor - {:event :metrics/initializing, :metricsCallback clojure.core/identity, :
+[mphase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,721 [main] INFO  datomic.process-monitor - {:event :metrics/initializing, :metricsCallback clojure.core/identity, :
+[mmsec 1.3, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,722 [main] INFO  datomic.process-monitor - {:metrics/started clojure.core/identity, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,725 [clojure-agent-send-off-pool-0] INFO  datomic.domain - {:event :cache/create, :cache-bytes 1922039808, :pid 308
+[m19, :tid 90} 
+[m2024-01-01 18:01:30,731 [main] DEBUG datomic.peer - {:event :peer/get-connection, :cluster-conf {:protocol :dev, :db-name "visitera_dev
+[m", :system-root "localhost:4334", :host "localhost", :port 4334}, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,737 [clojure-agent-send-off-pool-1] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-catalog",
+[m :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,741 [clojure-agent-send-off-pool-0] INFO  datomic.process-monitor - {:AvailableMB 3580.0, :ObjectCacheCount 0, :eve
+[mnt :metrics, :pid 30819, :tid 90} 
+[m2024-01-01 18:01:30,743 [clojure-agent-send-off-pool-0] DEBUG datomic.process-monitor - {:event :metrics/report, :phase :begin, :pid 30
+[m819, :tid 90} 
+[m2024-01-01 18:01:30,750 [clojure-agent-send-off-pool-0] DEBUG datomic.process-monitor - {:event :metrics/report, :msec 5.93, :phase :en
+[md, :pid 30819, :tid 90} 
+[m2024-01-01 18:01:30,750 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/pod-size, :bytes 826, :chunks 1,
+[m :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,751 [clojure-agent-send-off-pool-1] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-catalog",
+[m :msec 13.5, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,824 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :phase :begin, :pid 30819, 
+[m:tid 1} 
+[m2024-01-01 18:01:30,825 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mphase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,826 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mmsec 1.26, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,827 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :msec 2.92, :phase :end, :p
+[mid 30819, :tid 1} 
+[m2024-01-01 18:01:30,828 [main] INFO  datomic.peer - {:event :peer/connect-transactor, :host "localhost", :alt-host nil, :port 4334, :ve
+[mrsion "1.0.7075", :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,828 [main] DEBUG datomic.peer - {:event :peer/create-connection-impl, :cluster-conf {:protocol :dev, :db-name "visi
+[mtera_dev", :system-root "localhost:4334", :host "localhost", :port 4334, :db-id "visitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7"}, :
+[mphase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,831 [main] DEBUG datomic.connector - {:event :peer/hornet-connect, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,837 [main] DEBUG datomic.connector - {:event :peer/hornet-reuse-factory, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,851 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address admin.request, ne
+[meded = 131072, arriving = 0 
+[m2024-01-01 18:01:30,852 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address admin.request 
+[m2024-01-01 18:01:30,858 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on admin.request 
+[m2024-01-01 18:01:30,859 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 170 credits on address admin.request, pen
+[mdingCredits=130902 
+[m2024-01-01 18:01:30,880 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=bc9d3096-a88
+[mc-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.co
+[mre.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@440df4d4 
+[m2024-01-01 18:01:30,883 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=bc9d3096-a88c-11ee
+[m-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.core.cli
+[ment.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@440df4d4 
+[m2024-01-01 18:01:30,885 [main] DEBUG datomic.connector - {:event :peer/admin-request, :request :start-database, :return {:version "1.0.
+[m7075", :type :production, :status :already-started}, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,887 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,889 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7", :msec 1.29, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,891 [clojure-agent-send-off-pool-1] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,911 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/pod-size, :bytes 14792, :chunks 
+[m14, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,912 [clojure-agent-send-off-pool-1] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7", :msec 20.5, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,913 [main] DEBUG datomic.log - {:event :log/read-tail, :tail-desc {:rev 15, :d/r "659192ae-add1-4677-b0b9-a19085b46
+[m274", :d/v "7075", :d/l 3, :etag "65926081-7cd7-4d62-8252-a749f04ac7a8"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:30,930 [main] DEBUG datomic.index - {:event :index/load-index, :olookup #object[datomic.cache$lookup_cache$reify__1197
+[m3 0x6da2be07 "datomic.cache$lookup_cache$reify__11973@6da2be07"], :index-root-id #uuid "659192ae-fa1e-4768-a6f6-f7a46f1ae575", :pid 308
+[m19, :tid 1} 
+[m2024-01-01 18:01:30,934 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-fa1e
+[m-4768-a6f6-f7a46f1ae575", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,940 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-fa1e
+[m-4768-a6f6-f7a46f1ae575", :msec 5.03, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,960 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-1f54
+[m-4fdd-bc61-2c2d64f0cd46", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,962 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-1f54
+[m-4fdd-bc61-2c2d64f0cd46", :msec 1.25, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,967 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-d9ed
+[m-4452-97f2-187b4238a7f0", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,970 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-d9ed
+[m-4452-97f2-187b4238a7f0", :msec 2.07, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,972 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-53ae
+[m-45a7-98f3-8ec3a17850b1", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,974 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-53ae
+[m-45a7-98f3-8ec3a17850b1", :msec 1.09, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,975 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-02a4
+[m-4424-9568-5b203564c786", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,976 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-02a4
+[m-4424-9568-5b203564c786", :msec 1.17, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,987 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-46c6
+[m-4103-881c-8827445df14a", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,989 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-46c6
+[m-4103-881c-8827445df14a", :msec 1.36, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,992 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-ce39
+[m-458f-8ca9-af456224556c", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:30,993 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-ce39
+[m-458f-8ca9-af456224556c", :msec 1.04, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,010 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-62d7
+[m-48ce-9a17-a6bc332433ce", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,012 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-62d7
+[m-48ce-9a17-a6bc332433ce", :msec 1.06, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,013 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-86dd
+[m-4aea-b349-7613a8105f1e", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,015 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-86dd
+[m-4aea-b349-7613a8105f1e", :msec 1.04, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,019 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-41b1
+[m-4e70-8b80-3b27da62610a", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,022 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-41b1
+[m-4e70-8b80-3b27da62610a", :msec 1.86, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,030 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-32cc
+[m-46fd-a181-d08c6b5f33fb", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,031 [clojure-agent-send-off-pool-0] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-321f
+[m-4d91-9d60-38aad5ab5b43", :phase :begin, :pid 30819, :tid 90} 
+[m2024-01-01 18:01:31,031 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-e6f1
+[m-478b-b5d0-7eae14da71a5", :phase :begin, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,032 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-32cc
+[m-46fd-a181-d08c6b5f33fb", :msec 1.47, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,034 [clojure-agent-send-off-pool-0] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-321f
+[m-4d91-9d60-38aad5ab5b43", :msec 2.69, :phase :end, :pid 30819, :tid 90} 
+[m2024-01-01 18:01:31,035 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-e6f1
+[m-478b-b5d0-7eae14da71a5", :msec 3.0, :phase :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,041 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-a955
+[m-4f45-8e4f-7876dc9d6fc2", :phase :begin, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,043 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-a955
+[m-4f45-8e4f-7876dc9d6fc2", :msec 1.12, :phase :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,051 [clojure-agent-send-off-pool-0] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-3a7d
+[m-4115-b421-cbcc09cd9a58", :phase :begin, :pid 30819, :tid 90} 
+[m2024-01-01 18:01:31,051 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-615a
+[m-4e5f-ae23-9d1825d85c27", :phase :begin, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,053 [clojure-agent-send-off-pool-0] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-3a7d
+[m-4115-b421-cbcc09cd9a58", :msec 1.48, :phase :end, :pid 30819, :tid 90} 
+[m2024-01-01 18:01:31,053 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-615a
+[m-4e5f-ae23-9d1825d85c27", :msec 1.98, :phase :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,055 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-4b9f
+[m-4fd9-abc3-70b3936a6453", :phase :begin, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,058 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-4b9f
+[m-4fd9-abc3-70b3936a6453", :msec 2.89, :phase :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,063 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-3fc3
+[m-4696-bdaf-dd9abf67443a", :phase :begin, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,064 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-3fc3
+[m-4696-bdaf-dd9abf67443a", :msec 1.22, :phase :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,073 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-add1
+[m-4677-b0b9-a19085b46274", :phase :begin, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,075 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-add1
+[m-4677-b0b9-a19085b46274", :msec 1.26, :phase :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,090 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-4224
+[m-464b-a3c7-922062722a36", :phase :begin, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,092 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-4224
+[m-464b-a3c7-922062722a36", :msec 1.11, :phase :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,096 [clojure-agent-send-off-pool-2] INFO  datomic.log - {:event :log/load-segments, :count 0, :pid 30819, :tid 115}
+[m 
+[m2024-01-01 18:01:31,136 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,140 [main] DEBUG datomic.db - {:event :db/add-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,250 [main] DEBUG datomic.db - {:event :db/add-fulltext, :msec 110.0, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,251 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :msec 112.0, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,251 [main] INFO  datomic.log - {:event :log/catchup, :bytes 109248, :tail-t 1265, :index-t 66, :msec 65, :pid 30819
+[m, :tid 1} 
+[m2024-01-01 18:01:31,266 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7", :phase :begin, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,267 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7", :msec 1.01, :phase :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,268 [clojure-agent-send-off-pool-2] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7", :phase :begin, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,283 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/pod-size, :bytes 14792, :chunks 
+[m14, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,284 [clojure-agent-send-off-pool-2] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7", :msec 15.6, :phase :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,284 [main] DEBUG datomic.log - {:event :log/read-tail, :tail-desc {:rev 15, :d/r "659192ae-add1-4677-b0b9-a19085b46
+[m274", :d/v "7075", :d/l 3, :etag "65926081-7cd7-4d62-8252-a749f04ac7a8"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,287 [main] DEBUG datomic.index - {:event :index/load-index, :olookup #object[datomic.cache$lookup_cache$reify__1197
+[m3 0x6da2be07 "datomic.cache$lookup_cache$reify__11973@6da2be07"], :index-root-id #uuid "659192ae-fa1e-4768-a6f6-f7a46f1ae575", :pid 308
+[m19, :tid 1} 
+[m2024-01-01 18:01:31,303 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,304 [main] DEBUG datomic.db - {:event :db/add-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,304 [main] DEBUG datomic.db - {:event :db/add-fulltext, :msec 0.0522, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,305 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :msec 0.691, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,305 [main] INFO  datomic.log - {:event :log/catchup, :bytes 0, :tail-t 1265, :index-t 1265, :msec 0, :pid 30819, :t
+[mid 1} 
+[m2024-01-01 18:01:31,308 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address visitera_dev-d8ea
+[m6c0f-010a-4738-b5b6-91a494d609e7.tx-submit, needed = 131072, arriving = 0 
+[m2024-01-01 18:01:31,308 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address visitera_dev-d8ea6c0
+[mf-010a-4738-b5b6-91a494d609e7.tx-submit 
+[m2024-01-01 18:01:31,311 [clojure-agent-send-off-pool-2] DEBUG datomic.connector - {:event :connector/updater-loop, :phase :begin, :pid 
+[m30819, :tid 115} 
+[m2024-01-01 18:01:31,313 [clojure-agent-send-off-pool-0] DEBUG datomic.connector - {:event :connector/notify-loop, :phase :begin, :pid 3
+[m0819, :tid 90} 
+[m2024-01-01 18:01:31,313 [main] DEBUG datomic.peer - {:event :peer/create-connection-impl, :cluster-conf {:protocol :dev, :db-name "visi
+[mtera_dev", :system-root "localhost:4334", :host "localhost", :port 4334, :db-id "visitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7"}, :
+[mmsec 485.0, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,319 [main] INFO  datomic.peer - {:tid 1, :db-id "visitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7", :protocol :dev
+[m, :db-name "visitera_dev", :port 4334, :host "localhost", :pid 30819, :event :peer/cache-connection, :system-root "localhost:4334"} 
+[m2024-01-01 18:01:31,320 [main] DEBUG datomic.peer - {:event :peer/get-connection, :cluster-conf {:protocol :dev, :db-name "visitera_dev
+[m", :system-root "localhost:4334", :host "localhost", :port 4334}, :msec 588.0, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,335 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-1530
+[m-422e-8f3a-b1040c047634", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,338 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-1530
+[m-422e-8f3a-b1040c047634", :msec 2.22, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,340 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-1988
+[m-447f-bc39-9beeb860ff5f", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,341 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-1988
+[m-447f-bc39-9beeb860ff5f", :msec 1.15, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,422 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-0420
+[m-4278-9ef0-73913bf9781b", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,423 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-0420
+[m-4278-9ef0-73913bf9781b", :msec 1.11, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,424 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-9e52
+[m-445a-b006-8798b0eb6e24", :phase :begin, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,426 [clojure-agent-send-off-pool-1] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "659192ae-9e52
+[m-445a-b006-8798b0eb6e24", :msec 1.11, :phase :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,442 [Datomic Fulltext Integration] INFO  datomic.peer - {:message "Shutting down lucene integration thread", :pid 3
+[m0819, :tid 120} 
+[m2024-01-01 18:01:31,446 [clojure-agent-send-off-pool-1] DEBUG datomic.connector - {:event :connector/updater-cleanup, :phase :begin, :p
+[mid 30819, :tid 106} 
+[m2024-01-01 18:01:31,448 [clojure-agent-send-off-pool-2] DEBUG datomic.connector - {:event :connector/updater-loop, :msec 136.0, :phase 
+[m:end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,448 [clojure-agent-send-off-pool-1] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessi
+[monImpl [name=bce4c0e8-a88c-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.a
+[mpache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@58411db7 
+[m2024-01-01 18:01:31,450 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :delete-database, :arg {:db-name "visitera_dev"}, :phas
+[me :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,451 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :phase :begin, :pid 30819, 
+[m:tid 1} 
+[m2024-01-01 18:01:31,452 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mphase :begin, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,452 [clojure-agent-send-off-pool-1] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl
+[m [name=bce4c0e8-a88c-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.
+[mactivemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@58411db7 
+[m2024-01-01 18:01:31,453 [clojure-agent-send-off-pool-2] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mmsec 0.941, :phase :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,453 [clojure-agent-send-off-pool-1] DEBUG datomic.connector - {:event :connector/updater-cleanup, :msec 6.73, :phas
+[me :end, :pid 30819, :tid 106} 
+[m2024-01-01 18:01:31,453 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :msec 1.94, :phase :end, :p
+[mid 30819, :tid 1} 
+[m2024-01-01 18:01:31,454 [main] DEBUG datomic.connector - {:event :peer/hornet-connect, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,454 [main] DEBUG datomic.connector - {:event :peer/hornet-reuse-factory, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,456 [clojure-agent-send-off-pool-2] DEBUG datomic.connector - {:event :connector/notify-cleanup, :phase :begin, :pi
+[md 30819, :tid 115} 
+[m2024-01-01 18:01:31,463 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address admin.request, ne
+[meded = 131072, arriving = 0 
+[m2024-01-01 18:01:31,463 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address admin.request 
+[m2024-01-01 18:01:31,465 [clojure-agent-send-off-pool-2] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessi
+[monImpl [name=bcdc5c77-a88c-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.a
+[mpache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@cd0c71e 
+[m2024-01-01 18:01:31,468 [clojure-agent-send-off-pool-2] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl
+[m [name=bcdc5c77-a88c-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.
+[mactivemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@cd0c71e 
+[m2024-01-01 18:01:31,469 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on admin.request 
+[m2024-01-01 18:01:31,469 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 147 credits on address admin.request, pen
+[mdingCredits=130925 
+[m2024-01-01 18:01:31,470 [clojure-agent-send-off-pool-2] DEBUG datomic.connector - {:event :connector/notify-cleanup, :msec 13.5, :phase
+[m :end, :pid 30819, :tid 115} 
+[m2024-01-01 18:01:31,470 [clojure-agent-send-off-pool-0] DEBUG datomic.connector - {:event :connector/notify-loop, :msec 156.0, :phase :
+[mend, :pid 30819, :tid 90} 
+[m2024-01-01 18:01:31,496 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=bcfb5629-a88
+[mc-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.co
+[mre.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@7b08eb4 
+[m2024-01-01 18:01:31,499 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=bcfb5629-a88c-11ee
+[m-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.core.cli
+[ment.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@7b08eb4 
+[m2024-01-01 18:01:31,500 [main] DEBUG datomic.connector - {:event :peer/admin-request, :request :delete-database, :return {:deleted "vis
+[mitera_dev", :db-id "visitera_dev-d8ea6c0f-010a-4738-b5b6-91a494d609e7"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:01:31,501 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :delete-database, :arg {:db-name "visitera_dev"}, :msec
+[m 49.6, :phase :end, :pid 30819, :tid 1} 
+
+[mRan 2 tests containing 3 assertions.
+[m0 failures, 0 errors.
+
+[mPassed all tests
+[mFinished at 18:01:31.505 (run time: 3.005s)
+[m2024-01-01 18:02:30,726 [Datomic Metrics Reporter] INFO  datomic.process-monitor - {:tid 105, :ObjectCacheCount 24, :AvailableMB 3490.0
+[m, :StorageGetMsec {:lo 1, :hi 5, :sum 34, :count 24}, :PoolReadAheadActive {:lo 1, :hi 2, :sum 10, :count 6}, :pid 30819, :event :metri
+[mcs, :ObjectCache {:lo 0, :hi 1, :sum 37, :count 68}, :LogIngestMsec {:lo 0, :hi 65, :sum 65, :count 2}, :MetricsReport {:lo 1, :hi 1, :
+[msum 1, :count 1}, :DbAddFulltextMsec {:lo 0, :hi 110, :sum 110, :count 2}, :PodGetMsec {:lo 13, :hi 20, :sum 48, :count 3}, :LogIngestB
+[mytes {:lo 0, :hi 109248, :sum 109248, :count 2}, :StorageGetBytes {:lo 31, :hi 3105, :sum 6866, :count 24}, :DirLoads {:lo 1, :hi 1, :s
+[mum 4, :count 4}, :PoolReadAheadQueued {:lo 0, :hi 0, :sum 0, :count 6}} 
+[m2024-01-01 18:02:30,726 [Datomic Metrics Reporter] DEBUG datomic.process-monitor - {:event :metrics/report, :phase :begin, :pid 30819, 
+[m:tid 105} 
+[m2024-01-01 18:02:30,727 [Datomic Metrics Reporter] DEBUG datomic.process-monitor - {:event :metrics/report, :msec 0.0926, :phase :end, 
+[m:pid 30819, :tid 105} 
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mTesting visitera.test.routes.home
+[m2024-01-01 18:03:05,630 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :create-database, :arg {:db-name "visitera_dev"}, :phas
+[me :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:05,631 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :phase :begin, :pid 30819, 
+[m:tid 1} 
+[m2024-01-01 18:03:05,633 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mphase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:05,635 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mmsec 1.47, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:05,636 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :msec 3.77, :phase :end, :p
+[mid 30819, :tid 1} 
+[m2024-01-01 18:03:05,636 [main] DEBUG datomic.connector - {:event :peer/hornet-connect, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:05,636 [main] DEBUG datomic.connector - {:event :peer/hornet-reuse-factory, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:05,652 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address admin.request, ne
+[meded = 131072, arriving = 0 
+[m2024-01-01 18:03:05,653 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address admin.request 
+[m2024-01-01 18:03:05,664 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on admin.request 
+[m2024-01-01 18:03:05,665 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 147 credits on address admin.request, pen
+[mdingCredits=130925 
+[m2024-01-01 18:03:05,971 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=f51e5e8a-a88
+[mc-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.co
+[mre.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@32c598fa 
+[m2024-01-01 18:03:05,974 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=f51e5e8a-a88c-11ee
+[m-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.core.cli
+[ment.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@32c598fa 
+[m2024-01-01 18:03:05,975 [main] DEBUG datomic.connector - {:event :peer/admin-request, :request :create-database, :return {:created "vis
+[mitera_dev", :db-id "visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:05,976 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :create-database, :arg {:db-name "visitera_dev"}, :msec
+[m 345.0, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:05,979 [main] DEBUG datomic.peer - {:event :peer/get-connection, :cluster-conf {:protocol :dev, :db-name "visitera_dev
+[m", :system-root "localhost:4334", :host "localhost", :port 4334}, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:05,983 [clojure-agent-send-off-pool-4] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-catalog",
+[m :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:05,990 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/pod-size, :bytes 878, :chunks 1,
+[m :pid 30819, :tid 131} 
+[m2024-01-01 18:03:05,990 [clojure-agent-send-off-pool-4] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-catalog",
+[m :msec 7.0, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:05,992 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :phase :begin, :pid 30819, 
+[m:tid 1} 
+[m2024-01-01 18:03:05,994 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mphase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:05,997 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mmsec 1.63, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:05,998 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :msec 5.0, :phase :end, :pi
+[md 30819, :tid 1} 
+[m2024-01-01 18:03:05,998 [main] INFO  datomic.peer - {:event :peer/connect-transactor, :host "localhost", :alt-host nil, :port 4334, :ve
+[mrsion "1.0.7075", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:05,999 [main] DEBUG datomic.peer - {:event :peer/create-connection-impl, :cluster-conf {:protocol :dev, :db-name "visi
+[mtera_dev", :system-root "localhost:4334", :host "localhost", :port 4334, :db-id "visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24"}, :
+[mphase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:05,999 [main] DEBUG datomic.connector - {:event :peer/hornet-connect, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,000 [main] DEBUG datomic.connector - {:event :peer/hornet-reuse-factory, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,016 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address admin.request, ne
+[meded = 131072, arriving = 0 
+[m2024-01-01 18:03:06,017 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address admin.request 
+[m2024-01-01 18:03:06,022 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on admin.request 
+[m2024-01-01 18:03:06,024 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 170 credits on address admin.request, pen
+[mdingCredits=130902 
+[m2024-01-01 18:03:06,058 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=f556376b-a88
+[mc-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.co
+[mre.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@23c54fbb 
+[m2024-01-01 18:03:06,068 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=f556376b-a88c-11ee
+[m-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.core.cli
+[ment.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@23c54fbb 
+[m2024-01-01 18:03:06,068 [main] DEBUG datomic.connector - {:event :peer/admin-request, :request :start-database, :return {:version "1.0.
+[m7075", :type :production, :status :started}, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,073 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,077 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24", :msec 3.17, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,081 [clojure-agent-send-off-pool-4] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,086 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/pod-size, :bytes 1, :chunks 1, :
+[mpid 30819, :tid 131} 
+[m2024-01-01 18:03:06,087 [clojure-agent-send-off-pool-4] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24", :msec 5.94, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,091 [main] DEBUG datomic.log - {:event :log/read-tail, :tail-desc {:rev 1, :d/r "65928dd9-97f2-4ac4-9cd6-dce6eac86f
+[m09", :d/v "7075", :d/l 3, :etag "65928dd9-711c-4bb3-bfdb-1aafc7004dfe"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,091 [main] DEBUG datomic.index - {:event :index/load-index, :olookup #object[datomic.cache$lookup_cache$reify__1197
+[m3 0x3b91ed0e "datomic.cache$lookup_cache$reify__11973@3b91ed0e"], :index-root-id #uuid "65928dd9-b2e0-4aa7-93e5-5f740a7e42b5", :pid 308
+[m19, :tid 1} 
+[m2024-01-01 18:03:06,094 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-b2e0
+[m-4aa7-93e5-5f740a7e42b5", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,098 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-b2e0
+[m-4aa7-93e5-5f740a7e42b5", :msec 3.24, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,104 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-5763
+[m-420f-9360-2f4131a89b76", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,106 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-5763
+[m-420f-9360-2f4131a89b76", :msec 1.22, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,115 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-a408
+[m-4429-8597-c0b6243db57f", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,118 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-a408
+[m-4429-8597-c0b6243db57f", :msec 2.11, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,122 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-1fb3
+[m-4827-aff5-b06a8ea2f8f5", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,125 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-1fb3
+[m-4827-aff5-b06a8ea2f8f5", :msec 2.31, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,127 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-70bd
+[m-4084-a873-f83308e715b6", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,130 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-70bd
+[m-4084-a873-f83308e715b6", :msec 1.47, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,134 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-a4fd
+[m-4c68-8980-f85f93f953ec", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,137 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-a4fd
+[m-4c68-8980-f85f93f953ec", :msec 2.28, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,141 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-cfc7
+[m-4fe9-beb5-a950f7ffa1a0", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,145 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-cfc7
+[m-4fe9-beb5-a950f7ffa1a0", :msec 2.08, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,152 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-4ca4
+[m-4af0-83ac-65f65c218e30", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,157 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-4ca4
+[m-4af0-83ac-65f65c218e30", :msec 3.19, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,159 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-65ad
+[m-4ecc-b9b5-20cdad2e8196", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,164 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-65ad
+[m-4ecc-b9b5-20cdad2e8196", :msec 3.7, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,167 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-f12f
+[m-466f-99d1-1b70a0e941d7", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,169 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-f12f
+[m-466f-99d1-1b70a0e941d7", :msec 1.46, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,173 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-9af3
+[m-4a2d-aa93-dc52c8111909", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,175 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-cf50
+[m-4064-8fa8-53e9769870e4", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,176 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-9af3
+[m-4a2d-aa93-dc52c8111909", :msec 1.87, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,177 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-cf50
+[m-4064-8fa8-53e9769870e4", :msec 1.59, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,177 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-3233
+[m-44fa-b36c-20275596b939", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,181 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-3233
+[m-44fa-b36c-20275596b939", :msec 3.0, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,185 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-d4f1
+[m-4eab-a374-381a81b936a6", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,187 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-d4f1
+[m-4eab-a374-381a81b936a6", :msec 1.9, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,193 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-5ade
+[m-4a18-be42-696218d5cf68", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,193 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-437f
+[m-42af-a9ac-e39fa096036a", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,197 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-437f
+[m-42af-a9ac-e39fa096036a", :msec 2.73, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,198 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-5ade
+[m-4a18-be42-696218d5cf68", :msec 4.2, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,201 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-5776
+[m-448e-aa0e-99e3a5ab3649", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,205 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-5776
+[m-448e-aa0e-99e3a5ab3649", :msec 3.28, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,214 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-8b16
+[m-4f2f-8953-3ac7cacc7773", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,217 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-8b16
+[m-4f2f-8953-3ac7cacc7773", :msec 2.44, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,220 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-97f2
+[m-4ac4-9cd6-dce6eac86f09", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,224 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-97f2
+[m-4ac4-9cd6-dce6eac86f09", :msec 2.6, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,226 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-791d
+[m-4d3e-9e64-adfec8387e35", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,230 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-791d
+[m-4d3e-9e64-adfec8387e35", :msec 2.15, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,232 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,233 [main] DEBUG datomic.db - {:event :db/add-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,234 [main] DEBUG datomic.db - {:event :db/add-fulltext, :msec 0.052, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,234 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :msec 0.927, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,234 [main] INFO  datomic.log - {:event :log/catchup, :bytes 0, :tail-t 66, :index-t 66, :msec 13, :pid 30819, :tid 
+[m1} 
+[m2024-01-01 18:03:06,251 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,253 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24", :msec 1.96, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,255 [clojure-agent-send-off-pool-5] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,260 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/pod-size, :bytes 1, :chunks 1, :
+[mpid 30819, :tid 134} 
+[m2024-01-01 18:03:06,261 [clojure-agent-send-off-pool-5] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24", :msec 4.98, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,262 [main] DEBUG datomic.log - {:event :log/read-tail, :tail-desc {:rev 1, :d/r "65928dd9-97f2-4ac4-9cd6-dce6eac86f
+[m09", :d/v "7075", :d/l 3, :etag "65928dd9-711c-4bb3-bfdb-1aafc7004dfe"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,264 [main] DEBUG datomic.index - {:event :index/load-index, :olookup #object[datomic.cache$lookup_cache$reify__1197
+[m3 0x3b91ed0e "datomic.cache$lookup_cache$reify__11973@3b91ed0e"], :index-root-id #uuid "65928dd9-b2e0-4aa7-93e5-5f740a7e42b5", :pid 308
+[m19, :tid 1} 
+[m2024-01-01 18:03:06,283 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,283 [main] DEBUG datomic.db - {:event :db/add-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,284 [main] DEBUG datomic.db - {:event :db/add-fulltext, :msec 0.179, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,285 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :msec 1.9, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,287 [main] INFO  datomic.log - {:event :log/catchup, :bytes 0, :tail-t 66, :index-t 66, :msec 0, :pid 30819, :tid 1
+[m} 
+[m2024-01-01 18:03:06,296 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address visitera_dev-163b
+[m50ac-128b-42ba-bf87-6cbd9771da24.tx-submit, needed = 131072, arriving = 0 
+[m2024-01-01 18:03:06,297 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address visitera_dev-163b50a
+[mc-128b-42ba-bf87-6cbd9771da24.tx-submit 
+[m2024-01-01 18:03:06,299 [clojure-agent-send-off-pool-5] DEBUG datomic.connector - {:event :connector/updater-loop, :phase :begin, :pid 
+[m30819, :tid 134} 
+[m2024-01-01 18:03:06,300 [clojure-agent-send-off-pool-4] DEBUG datomic.connector - {:event :connector/notify-loop, :phase :begin, :pid 3
+[m0819, :tid 131} 
+[m2024-01-01 18:03:06,301 [main] DEBUG datomic.peer - {:event :peer/create-connection-impl, :cluster-conf {:protocol :dev, :db-name "visi
+[mtera_dev", :system-root "localhost:4334", :host "localhost", :port 4334, :db-id "visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24"}, :
+[mmsec 301.0, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,303 [main] INFO  datomic.peer - {:tid 1, :db-id "visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24", :protocol :dev
+[m, :db-name "visitera_dev", :port 4334, :host "localhost", :pid 30819, :event :peer/cache-connection, :system-root "localhost:4334"} 
+[m2024-01-01 18:03:06,306 [main] DEBUG datomic.peer - {:event :peer/get-connection, :cluster-conf {:protocol :dev, :db-name "visitera_dev
+[m", :system-root "localhost:4334", :host "localhost", :port 4334}, :msec 325.0, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,314 [main] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928dda-fc9a-490d-9cc3-c7dc83b3a13a", :phase 
+[m:start, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,319 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on 
+[mvisitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit 
+[m2024-01-01 18:03:06,320 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 418 credits on a
+[mddress visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit, pendingCredits=130654 
+[m2024-01-01 18:03:06,368 [clojure-agent-send-off-pool-4] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928dda-fc9a-490d-9c
+[mc3-c7dc83b3a13a", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,370 [clojure-agent-send-off-pool-4] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928dda-fc9a-490d-9c
+[mc3-c7dc83b3a13a", :msec 1.64, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,370 [clojure-agent-send-off-pool-4] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928dda-fc9a-490d-9c
+[mc3-c7dc83b3a13a", :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,370 [clojure-agent-send-off-pool-4] INFO  datomic.peer - {:event :peer/notify-data, :msec 3, :id #uuid "65928dda-fc
+[m9a-490d-9cc3-c7dc83b3a13a", :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,371 [main] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928dda-630a-475f-83a8-c8e460b12e49", :phase 
+[m:start, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,373 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on 
+[maddress visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit, needed = 131072, arriving = 0 
+[m2024-01-01 18:03:06,373 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on add
+[mress visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit 
+[m2024-01-01 18:03:06,374 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 431 credits on a
+[mddress visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit, pendingCredits=261295 
+[m2024-01-01 18:03:06,406 [clojure-agent-send-off-pool-4] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928dda-630a-475f-83
+[ma8-c8e460b12e49", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,407 [clojure-agent-send-off-pool-4] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928dda-630a-475f-83
+[ma8-c8e460b12e49", :msec 0.593, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,407 [clojure-agent-send-off-pool-4] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928dda-630a-475f-83
+[ma8-c8e460b12e49", :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,407 [clojure-agent-send-off-pool-4] INFO  datomic.peer - {:event :peer/notify-data, :msec 2, :id #uuid "65928dda-63
+[m0a-475f-83a8-c8e460b12e49", :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,408 [main] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928dda-eae2-4c5e-b41a-6a59178d033f", :phase 
+[m:start, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,414 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on 
+[mvisitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit 
+[m2024-01-01 18:03:06,414 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 805 credits on a
+[mddress visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit, pendingCredits=260490 
+[m2024-01-01 18:03:06,436 [clojure-agent-send-off-pool-4] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928dda-eae2-4c5e-b4
+[m1a-6a59178d033f", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,436 [clojure-agent-send-off-pool-4] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928dda-eae2-4c5e-b4
+[m1a-6a59178d033f", :msec 0.37, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,437 [clojure-agent-send-off-pool-4] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928dda-eae2-4c5e-b4
+[m1a-6a59178d033f", :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,437 [clojure-agent-send-off-pool-4] INFO  datomic.peer - {:event :peer/notify-data, :msec 2, :id #uuid "65928dda-ea
+[me2-4c5e-b41a-6a59178d033f", :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,444 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-bed1
+[m-40cc-bd93-fa9593b7ef81", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,447 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-bed1
+[m-40cc-bd93-fa9593b7ef81", :msec 2.43, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,450 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-416d
+[m-4611-9eb2-053fd819f809", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,453 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-416d
+[m-4611-9eb2-053fd819f809", :msec 2.1, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,465 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-76ae
+[m-47f2-9a44-8debb6455a69", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,468 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-76ae
+[m-47f2-9a44-8debb6455a69", :msec 1.73, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,471 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-f2fd
+[m-471f-bea4-6c520094fd1f", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,474 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-f2fd
+[m-471f-bea4-6c520094fd1f", :msec 2.0, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,489 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-526e
+[m-4952-abd2-fe1b324c330e", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,494 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928dd9-526e
+[m-4952-abd2-fe1b324c330e", :msec 3.8, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,500 [main] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928dda-71f4-4d70-8389-74a462bfcb7a", :phase 
+[m:start, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,503 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on 
+[mvisitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit 
+[m2024-01-01 18:03:06,504 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 831 credits on a
+[mddress visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit, pendingCredits=259659 
+[m2024-01-01 18:03:06,761 [clojure-agent-send-off-pool-4] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928dda-71f4-4d70-83
+[m89-74a462bfcb7a", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,764 [clojure-agent-send-off-pool-4] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928dda-71f4-4d70-83
+[m89-74a462bfcb7a", :msec 2.16, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,764 [clojure-agent-send-off-pool-4] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928dda-71f4-4d70-83
+[m89-74a462bfcb7a", :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,765 [clojure-agent-send-off-pool-4] INFO  datomic.peer - {:event :peer/notify-data, :msec 3, :id #uuid "65928dda-71
+[mf4-4d70-8389-74a462bfcb7a", :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,770 [main] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928dda-10b3-4f12-a862-983c350fa41c", :phase 
+[m:start, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,787 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on 
+[mvisitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit 
+[m2024-01-01 18:03:06,787 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 8278 credits on 
+[maddress visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24.tx-submit, pendingCredits=251381 
+[m2024-01-01 18:03:06,875 [clojure-agent-send-off-pool-4] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928dda-10b3-4f12-a8
+[m62-983c350fa41c", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,885 [clojure-agent-send-off-pool-4] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928dda-10b3-4f12-a8
+[m62-983c350fa41c", :msec 9.16, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,895 [clojure-agent-send-off-pool-4] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928dda-10b3-4f12-a8
+[m62-983c350fa41c", :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,895 [clojure-agent-send-off-pool-4] INFO  datomic.peer - {:event :peer/notify-data, :msec 20, :id #uuid "65928dda-1
+[m0b3-4f12-a862-983c350fa41c", :pid 30819, :tid 131} 
+
+[mFAIL in (register-handler-test) (home.clj:28)
+[mBad input: email and password should not be empty
+[mexpected: [:email]
+[m  actual: (:email :password)
+[m    diff: + [nil :password]
+[m2024-01-01 18:03:06,936 [Datomic Fulltext Integration] INFO  datomic.peer - {:message "Shutting down lucene integration thread", :pid 3
+[m0819, :tid 139} 
+[m2024-01-01 18:03:06,937 [clojure-agent-send-off-pool-6] DEBUG datomic.connector - {:event :connector/updater-cleanup, :phase :begin, :p
+[mid 30819, :tid 140} 
+[m2024-01-01 18:03:06,937 [clojure-agent-send-off-pool-5] DEBUG datomic.connector - {:event :connector/updater-loop, :msec 638.0, :phase 
+[m:end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,938 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :delete-database, :arg {:db-name "visitera_dev"}, :phas
+[me :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,939 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :phase :begin, :pid 30819, 
+[m:tid 1} 
+[m2024-01-01 18:03:06,939 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mphase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,940 [clojure-agent-send-off-pool-6] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessi
+[monImpl [name=f581db4d-a88c-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.a
+[mpache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@4e79f3ea 
+[m2024-01-01 18:03:06,942 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mmsec 2.18, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,943 [clojure-agent-send-off-pool-6] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl
+[m [name=f581db4d-a88c-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.
+[mactivemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@4e79f3ea 
+[m2024-01-01 18:03:06,943 [clojure-agent-send-off-pool-6] DEBUG datomic.connector - {:event :connector/updater-cleanup, :msec 6.18, :phas
+[me :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:06,944 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :msec 3.28, :phase :end, :p
+[mid 30819, :tid 1} 
+[m2024-01-01 18:03:06,944 [clojure-agent-send-off-pool-5] DEBUG datomic.connector - {:event :connector/notify-cleanup, :phase :begin, :pi
+[md 30819, :tid 134} 
+[m2024-01-01 18:03:06,944 [main] DEBUG datomic.connector - {:event :peer/hornet-connect, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,944 [main] DEBUG datomic.connector - {:event :peer/hornet-reuse-factory, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,951 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessi
+[monImpl [name=f5799dec-a88c-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.a
+[mpache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@69587ec9 
+[m2024-01-01 18:03:06,953 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl
+[m [name=f5799dec-a88c-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.
+[mactivemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@69587ec9 
+[m2024-01-01 18:03:06,954 [clojure-agent-send-off-pool-5] DEBUG datomic.connector - {:event :connector/notify-cleanup, :msec 9.72, :phase
+[m :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:06,954 [clojure-agent-send-off-pool-4] DEBUG datomic.connector - {:event :connector/notify-loop, :msec 653.0, :phase :
+[mend, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:06,956 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address admin.request, ne
+[meded = 131072, arriving = 0 
+[m2024-01-01 18:03:06,956 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address admin.request 
+[m2024-01-01 18:03:06,962 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on admin.request 
+[m2024-01-01 18:03:06,962 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 147 credits on address admin.request, pen
+[mdingCredits=130925 
+[m2024-01-01 18:03:06,987 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=f5e5f44e-a88
+[mc-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.co
+[mre.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@453d7fb9 
+[m2024-01-01 18:03:06,989 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=f5e5f44e-a88c-11ee
+[m-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.core.cli
+[ment.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@453d7fb9 
+[m2024-01-01 18:03:06,990 [main] DEBUG datomic.connector - {:event :peer/admin-request, :request :delete-database, :return {:deleted "vis
+[mitera_dev", :db-id "visitera_dev-163b50ac-128b-42ba-bf87-6cbd9771da24"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:06,990 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :delete-database, :arg {:db-name "visitera_dev"}, :msec
+[m 51.2, :phase :end, :pid 30819, :tid 1} 
+
+[mRan 2 tests containing 3 assertions.
+[m1 failures, 0 errors.
+
+[mFailed 1 of 3 assertions
+[mFinished at 18:03:06.991 (run time: 1.462s)
+[m2024-01-01 18:03:30,726 [Datomic Metrics Reporter] INFO  datomic.process-monitor - {:tid 105, :ObjectCacheCount 49, :PeerAcceptNewMsec 
+[m{:lo 0, :hi 9, :sum 12, :count 5}, :AvailableMB 3540.0, :StorageGetMsec {:lo 1, :hi 4, :sum 51, :count 25}, :PoolReadAheadActive {:lo 1
+[m, :hi 2, :sum 8, :count 5}, :pid 30819, :event :metrics, :ObjectCache {:lo 0, :hi 1, :sum 38, :count 68}, :LogIngestMsec {:lo 0, :hi 13
+[m, :sum 13, :count 2}, :MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :PeerFulltextBatch {:lo 1, :hi 1, :sum 5, :count 5}, :DbAddFullt
+[mextMsec {:lo 0, :hi 0, :sum 0, :count 2}, :PodGetMsec {:lo 4, :hi 7, :sum 16, :count 3}, :LogIngestBytes {:lo 0, :hi 0, :sum 0, :count 
+[m2}, :StorageGetBytes {:lo 31, :hi 3105, :sum 6958, :count 25}, :DirLoads {:lo 1, :hi 1, :sum 4, :count 4}, :PoolReadAheadQueued {:lo 0,
+[m :hi 0, :sum 0, :count 5}} 
+[m2024-01-01 18:03:30,727 [Datomic Metrics Reporter] DEBUG datomic.process-monitor - {:event :metrics/report, :phase :begin, :pid 30819, 
+[m:tid 105} 
+[m2024-01-01 18:03:30,727 [Datomic Metrics Reporter] DEBUG datomic.process-monitor - {:event :metrics/report, :msec 0.0964, :phase :end, 
+[m:pid 30819, :tid 105} 
+[m*********************************************
+[m*************** Running tests ***************
+[m:reloading (visitera.test.routes.home)
+
+[mTesting visitera.handler-test
+
+[mTesting visitera.test.routes.home
+[m2024-01-01 18:03:34,062 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :create-database, :arg {:db-name "visitera_dev"}, :phas
+[me :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,062 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :phase :begin, :pid 30819, 
+[m:tid 1} 
+[m2024-01-01 18:03:34,063 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mphase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,064 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mmsec 1.37, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,065 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :msec 2.48, :phase :end, :p
+[mid 30819, :tid 1} 
+[m2024-01-01 18:03:34,065 [main] DEBUG datomic.connector - {:event :peer/hornet-connect, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,065 [main] DEBUG datomic.connector - {:event :peer/hornet-reuse-factory, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,076 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address admin.request, ne
+[meded = 131072, arriving = 0 
+[m2024-01-01 18:03:34,076 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address admin.request 
+[m2024-01-01 18:03:34,082 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on admin.request 
+[m2024-01-01 18:03:34,083 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 147 credits on address admin.request, pen
+[mdingCredits=130925 
+[m2024-01-01 18:03:34,141 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=0610716f-a88
+[md-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.co
+[mre.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@4287bd46 
+[m2024-01-01 18:03:34,143 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=0610716f-a88d-11ee
+[m-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.core.cli
+[ment.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@4287bd46 
+[m2024-01-01 18:03:34,144 [main] DEBUG datomic.connector - {:event :peer/admin-request, :request :create-database, :return {:created "vis
+[mitera_dev", :db-id "visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,145 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :create-database, :arg {:db-name "visitera_dev"}, :msec
+[m 82.3, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,145 [main] DEBUG datomic.peer - {:event :peer/get-connection, :cluster-conf {:protocol :dev, :db-name "visitera_dev
+[m", :system-root "localhost:4334", :host "localhost", :port 4334}, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,146 [clojure-agent-send-off-pool-4] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-catalog",
+[m :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,149 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/pod-size, :bytes 930, :chunks 1,
+[m :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,150 [clojure-agent-send-off-pool-4] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-catalog",
+[m :msec 3.22, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,152 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :phase :begin, :pid 30819, 
+[m:tid 1} 
+[m2024-01-01 18:03:34,152 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mphase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,154 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mmsec 1.02, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,155 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :msec 2.47, :phase :end, :p
+[mid 30819, :tid 1} 
+[m2024-01-01 18:03:34,155 [main] INFO  datomic.peer - {:event :peer/connect-transactor, :host "localhost", :alt-host nil, :port 4334, :ve
+[mrsion "1.0.7075", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,155 [main] DEBUG datomic.peer - {:event :peer/create-connection-impl, :cluster-conf {:protocol :dev, :db-name "visi
+[mtera_dev", :system-root "localhost:4334", :host "localhost", :port 4334, :db-id "visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360"}, :
+[mphase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,155 [main] DEBUG datomic.connector - {:event :peer/hornet-connect, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,156 [main] DEBUG datomic.connector - {:event :peer/hornet-reuse-factory, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,164 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address admin.request, ne
+[meded = 131072, arriving = 0 
+[m2024-01-01 18:03:34,164 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address admin.request 
+[m2024-01-01 18:03:34,170 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on admin.request 
+[m2024-01-01 18:03:34,170 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 170 credits on address admin.request, pen
+[mdingCredits=130902 
+[m2024-01-01 18:03:34,193 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=061e2d10-a88
+[md-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.co
+[mre.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@19372b0b 
+[m2024-01-01 18:03:34,200 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=061e2d10-a88d-11ee
+[m-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.core.cli
+[ment.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@19372b0b 
+[m2024-01-01 18:03:34,201 [main] DEBUG datomic.connector - {:event :peer/admin-request, :request :start-database, :return {:version "1.0.
+[m7075", :type :production, :status :started}, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,202 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,204 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360", :msec 1.64, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,208 [clojure-agent-send-off-pool-4] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,213 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/pod-size, :bytes 1, :chunks 1, :
+[mpid 30819, :tid 131} 
+[m2024-01-01 18:03:34,214 [clojure-agent-send-off-pool-4] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360", :msec 5.34, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,214 [main] DEBUG datomic.log - {:event :log/read-tail, :tail-desc {:rev 1, :d/r "65928df6-57cf-437c-a414-467b802d61
+[m2b", :d/v "7075", :d/l 3, :etag "65928df6-6e4a-4b4e-8ee5-85644bd07ceb"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,215 [main] DEBUG datomic.index - {:event :index/load-index, :olookup #object[datomic.cache$lookup_cache$reify__1197
+[m3 0x7da45702 "datomic.cache$lookup_cache$reify__11973@7da45702"], :index-root-id #uuid "65928df6-8b85-49e5-9e94-6f9ab7722f8b", :pid 308
+[m19, :tid 1} 
+[m2024-01-01 18:03:34,216 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-8b85
+[m-49e5-9e94-6f9ab7722f8b", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,218 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-8b85
+[m-49e5-9e94-6f9ab7722f8b", :msec 1.63, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,221 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-ad7b
+[m-4da5-a67c-61249b4824ce", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,225 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-ad7b
+[m-4da5-a67c-61249b4824ce", :msec 3.4, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,228 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-219b
+[m-4520-83b4-22591b6df2e9", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,230 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-219b
+[m-4520-83b4-22591b6df2e9", :msec 1.74, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,232 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-f239
+[m-4653-8320-f7e32df2d8ea", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,241 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-f239
+[m-4653-8320-f7e32df2d8ea", :msec 2.98, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,245 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-f0e4
+[m-413e-80e0-6098f089b4d6", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,248 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-f0e4
+[m-413e-80e0-6098f089b4d6", :msec 2.32, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,251 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-cc4a
+[m-472b-b5c5-780b01a64ec4", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,252 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-cc4a
+[m-472b-b5c5-780b01a64ec4", :msec 1.41, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,254 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-e742
+[m-4e26-ac17-29ca1de7ec6c", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,257 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-e742
+[m-4e26-ac17-29ca1de7ec6c", :msec 2.11, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,263 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-b014
+[m-44e9-8177-fe61eae8dc83", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,267 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-b014
+[m-44e9-8177-fe61eae8dc83", :msec 2.4, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,269 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-e9ef
+[m-4dbb-87cf-dcdb1e347ac8", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,273 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-e9ef
+[m-4dbb-87cf-dcdb1e347ac8", :msec 2.26, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,276 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-5e71
+[m-4137-9b17-a1f83908e60d", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,285 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-5e71
+[m-4137-9b17-a1f83908e60d", :msec 2.32, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,290 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-b714
+[m-400f-aa70-d202f03657e1", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,290 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-bb72
+[m-4711-b330-5c4d64688cd3", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,292 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-b714
+[m-400f-aa70-d202f03657e1", :msec 1.24, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,292 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-bb72
+[m-4711-b330-5c4d64688cd3", :msec 1.8, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,292 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-8c4d
+[m-4fab-83d6-30fc4174d974", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,295 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-8c4d
+[m-4fab-83d6-30fc4174d974", :msec 1.58, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,298 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-fd76
+[m-4a55-b671-74fe11aa691f", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,302 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-fd76
+[m-4a55-b671-74fe11aa691f", :msec 2.85, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,308 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-51b7
+[m-49bd-9aee-c4e36008da27", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,312 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-51b7
+[m-49bd-9aee-c4e36008da27", :msec 2.96, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,321 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-b5f4
+[m-4512-bc33-04921552a050", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,321 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-26a5
+[m-41e3-a76c-70232dd59d36", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,323 [clojure-agent-send-off-pool-6] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-26a5
+[m-41e3-a76c-70232dd59d36", :msec 1.25, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,324 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-b5f4
+[m-4512-bc33-04921552a050", :msec 2.6, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,332 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-ea0b
+[m-476c-83c4-dc9ef4a3004f", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,335 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-ea0b
+[m-476c-83c4-dc9ef4a3004f", :msec 2.31, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,338 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-57cf
+[m-437c-a414-467b802d612b", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,341 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-57cf
+[m-437c-a414-467b802d612b", :msec 1.44, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,347 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-291b
+[m-40e8-ad21-ee98dc383ca7", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,350 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-291b
+[m-40e8-ad21-ee98dc383ca7", :msec 1.93, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,351 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,352 [main] DEBUG datomic.db - {:event :db/add-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,352 [main] DEBUG datomic.db - {:event :db/add-fulltext, :msec 0.1, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,352 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :msec 0.82, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,353 [main] INFO  datomic.log - {:event :log/catchup, :bytes 0, :tail-t 66, :index-t 66, :msec 14, :pid 30819, :tid 
+[m1} 
+[m2024-01-01 18:03:34,374 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,377 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "ref-index-roo
+[mt/visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360", :msec 2.29, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,379 [clojure-agent-send-off-pool-5] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360", :phase :begin, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,384 [clojure-agent-send-off-pool-5] DEBUG datomic.kv-cluster - {:event :kv-cluster/pod-size, :bytes 1, :chunks 1, :
+[mpid 30819, :tid 134} 
+[m2024-01-01 18:03:34,385 [clojure-agent-send-off-pool-5] INFO  datomic.kv-cluster - {:event :kv-cluster/get-pod, :pod-key "pod-log-tail/
+[mvisitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360", :msec 5.23, :phase :end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,385 [main] DEBUG datomic.log - {:event :log/read-tail, :tail-desc {:rev 1, :d/r "65928df6-57cf-437c-a414-467b802d61
+[m2b", :d/v "7075", :d/l 3, :etag "65928df6-6e4a-4b4e-8ee5-85644bd07ceb"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,386 [main] DEBUG datomic.index - {:event :index/load-index, :olookup #object[datomic.cache$lookup_cache$reify__1197
+[m3 0x7da45702 "datomic.cache$lookup_cache$reify__11973@7da45702"], :index-root-id #uuid "65928df6-8b85-49e5-9e94-6f9ab7722f8b", :pid 308
+[m19, :tid 1} 
+[m2024-01-01 18:03:34,409 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,409 [main] DEBUG datomic.db - {:event :db/add-fulltext, :phase :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,410 [main] DEBUG datomic.db - {:event :db/add-fulltext, :msec 0.0995, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,410 [main] INFO  datomic.log - {:event :log/catchup-fulltext, :msec 0.554, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,411 [main] INFO  datomic.log - {:event :log/catchup, :bytes 0, :tail-t 66, :index-t 66, :msec 1, :pid 30819, :tid 1
+[m} 
+[m2024-01-01 18:03:34,417 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address visitera_dev-66f6
+[mb87a-15f6-49bb-bf3a-2f134f436360.tx-submit, needed = 131072, arriving = 0 
+[m2024-01-01 18:03:34,417 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address visitera_dev-66f6b87
+[ma-15f6-49bb-bf3a-2f134f436360.tx-submit 
+[m2024-01-01 18:03:34,422 [clojure-agent-send-off-pool-5] DEBUG datomic.connector - {:event :connector/updater-loop, :phase :begin, :pid 
+[m30819, :tid 134} 
+[m2024-01-01 18:03:34,422 [clojure-agent-send-off-pool-6] DEBUG datomic.connector - {:event :connector/notify-loop, :phase :begin, :pid 3
+[m0819, :tid 140} 
+[m2024-01-01 18:03:34,423 [main] DEBUG datomic.peer - {:event :peer/create-connection-impl, :cluster-conf {:protocol :dev, :db-name "visi
+[mtera_dev", :system-root "localhost:4334", :host "localhost", :port 4334, :db-id "visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360"}, :
+[mmsec 267.0, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,424 [main] INFO  datomic.peer - {:tid 1, :db-id "visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360", :protocol :dev
+[m, :db-name "visitera_dev", :port 4334, :host "localhost", :pid 30819, :event :peer/cache-connection, :system-root "localhost:4334"} 
+[m2024-01-01 18:03:34,424 [main] DEBUG datomic.peer - {:event :peer/get-connection, :cluster-conf {:protocol :dev, :db-name "visitera_dev
+[m", :system-root "localhost:4334", :host "localhost", :port 4334}, :msec 279.0, :phase :end, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,429 [main] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928df6-70b1-418c-8957-05cd8ffd7df4", :phase 
+[m:start, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,431 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on 
+[mvisitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit 
+[m2024-01-01 18:03:34,431 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 418 credits on a
+[mddress visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit, pendingCredits=130654 
+[m2024-01-01 18:03:34,471 [clojure-agent-send-off-pool-6] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928df6-70b1-418c-89
+[m57-05cd8ffd7df4", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,472 [clojure-agent-send-off-pool-6] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928df6-70b1-418c-89
+[m57-05cd8ffd7df4", :msec 1.02, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,473 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928df6-70b1-418c-89
+[m57-05cd8ffd7df4", :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,473 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/notify-data, :msec 3, :id #uuid "65928df6-70
+[mb1-418c-8957-05cd8ffd7df4", :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,474 [main] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928df6-c0c5-4082-9a2b-253c2fd823ea", :phase 
+[m:start, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,475 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on 
+[maddress visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit, needed = 131072, arriving = 0 
+[m2024-01-01 18:03:34,475 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on add
+[mress visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit 
+[m2024-01-01 18:03:34,475 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 431 credits on a
+[mddress visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit, pendingCredits=261295 
+[m2024-01-01 18:03:34,500 [clojure-agent-send-off-pool-6] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928df6-c0c5-4082-9a
+[m2b-253c2fd823ea", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,502 [clojure-agent-send-off-pool-6] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928df6-c0c5-4082-9a
+[m2b-253c2fd823ea", :msec 0.901, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,502 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928df6-c0c5-4082-9a
+[m2b-253c2fd823ea", :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,502 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/notify-data, :msec 3, :id #uuid "65928df6-c0
+[mc5-4082-9a2b-253c2fd823ea", :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,503 [main] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928df6-c69c-4037-a54a-b1927bbb54e8", :phase 
+[m:start, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,504 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on 
+[mvisitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit 
+[m2024-01-01 18:03:34,504 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 805 credits on a
+[mddress visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit, pendingCredits=260490 
+[m2024-01-01 18:03:34,530 [clojure-agent-send-off-pool-6] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928df6-c69c-4037-a5
+[m4a-b1927bbb54e8", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,531 [clojure-agent-send-off-pool-6] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928df6-c69c-4037-a5
+[m4a-b1927bbb54e8", :msec 0.345, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,531 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928df6-c69c-4037-a5
+[m4a-b1927bbb54e8", :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,532 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/notify-data, :msec 2, :id #uuid "65928df6-c6
+[m9c-4037-a54a-b1927bbb54e8", :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,533 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-daf5
+[m-4d91-bdfb-41464a566633", :phase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,542 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-daf5
+[m-4d91-bdfb-41464a566633", :msec 7.56, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,544 [clojure-agent-send-off-pool-7] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-65f3
+[m-43bb-9a42-eeab1f3badf9", :phase :begin, :pid 30819, :tid 147} 
+[m2024-01-01 18:03:34,553 [clojure-agent-send-off-pool-7] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-65f3
+[m-43bb-9a42-eeab1f3badf9", :msec 9.23, :phase :end, :pid 30819, :tid 147} 
+[m2024-01-01 18:03:34,563 [clojure-agent-send-off-pool-7] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-38e6
+[m-4742-96cb-4312cd212967", :phase :begin, :pid 30819, :tid 147} 
+[m2024-01-01 18:03:34,565 [clojure-agent-send-off-pool-7] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-38e6
+[m-4742-96cb-4312cd212967", :msec 1.86, :phase :end, :pid 30819, :tid 147} 
+[m2024-01-01 18:03:34,569 [clojure-agent-send-off-pool-7] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-ed45
+[m-4553-898a-f933e2190543", :phase :begin, :pid 30819, :tid 147} 
+[m2024-01-01 18:03:34,572 [clojure-agent-send-off-pool-7] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-ed45
+[m-4553-898a-f933e2190543", :msec 2.19, :phase :end, :pid 30819, :tid 147} 
+[m2024-01-01 18:03:34,579 [clojure-agent-send-off-pool-7] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-720e
+[m-4385-a6a2-705e44bca22d", :phase :begin, :pid 30819, :tid 147} 
+[m2024-01-01 18:03:34,580 [clojure-agent-send-off-pool-7] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-val, :val-key "65928df6-720e
+[m-4385-a6a2-705e44bca22d", :msec 1.14, :phase :end, :pid 30819, :tid 147} 
+[m2024-01-01 18:03:34,588 [main] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928df6-2593-4401-a708-8130a407c82c", :phase 
+[m:start, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,589 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on 
+[mvisitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit 
+[m2024-01-01 18:03:34,590 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 831 credits on a
+[mddress visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit, pendingCredits=259659 
+[m2024-01-01 18:03:34,676 [clojure-agent-send-off-pool-6] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928df6-2593-4401-a7
+[m08-8130a407c82c", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,679 [clojure-agent-send-off-pool-6] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928df6-2593-4401-a7
+[m08-8130a407c82c", :msec 2.43, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,679 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928df6-2593-4401-a7
+[m08-8130a407c82c", :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,679 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/notify-data, :msec 3, :id #uuid "65928df6-25
+[m93-4401-a708-8130a407c82c", :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,685 [main] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928df6-875d-409d-8e4c-74718b682d43", :phase 
+[m:start, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,698 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on 
+[mvisitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit 
+[m2024-01-01 18:03:34,699 [clojure-agent-send-off-pool-5] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 8278 credits on 
+[maddress visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360.tx-submit, pendingCredits=251381 
+[m2024-01-01 18:03:34,794 [clojure-agent-send-off-pool-6] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928df6-875d-409d-8e
+[m4c-74718b682d43", :phase :begin, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,803 [clojure-agent-send-off-pool-6] DEBUG datomic.peer - {:event :peer/accept-new, :id #uuid "65928df6-875d-409d-8e
+[m4c-74718b682d43", :msec 8.99, :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,803 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/transact, :uuid #uuid "65928df6-875d-409d-8e
+[m4c-74718b682d43", :phase :end, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,805 [Datomic Fulltext Integration] INFO  datomic.peer - {:message "Shutting down lucene integration thread", :pid 3
+[m0819, :tid 149} 
+[m2024-01-01 18:03:34,806 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :delete-database, :arg {:db-name "visitera_dev"}, :phas
+[me :begin, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,807 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :phase :begin, :pid 30819, 
+[m:tid 1} 
+[m2024-01-01 18:03:34,807 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mphase :begin, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,810 [clojure-agent-send-off-pool-7] DEBUG datomic.connector - {:event :connector/updater-cleanup, :phase :begin, :p
+[mid 30819, :tid 147} 
+[m2024-01-01 18:03:34,811 [clojure-agent-send-off-pool-5] DEBUG datomic.connector - {:event :connector/updater-loop, :msec 388.0, :phase 
+[m:end, :pid 30819, :tid 134} 
+[m2024-01-01 18:03:34,811 [clojure-agent-send-off-pool-4] DEBUG datomic.kv-cluster - {:event :kv-cluster/get-ref, :ref-key "pod-coord", :
+[mmsec 3.2, :phase :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,816 [main] DEBUG datomic.coordination - {:event :coord/lookup-endpoint, :k "pod-coord", :msec 9.2, :phase :end, :pi
+[md 30819, :tid 1} 
+[m2024-01-01 18:03:34,817 [main] DEBUG datomic.connector - {:event :peer/hornet-connect, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,817 [main] DEBUG datomic.connector - {:event :peer/hornet-reuse-factory, :host "localhost", :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,818 [clojure-agent-send-off-pool-7] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessi
+[monImpl [name=06451602-a88d-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.a
+[mpache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@1f978766 
+[m2024-01-01 18:03:34,825 [clojure-agent-send-off-pool-7] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl
+[m [name=06451602-a88d-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.
+[mactivemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@1f978766 
+[m2024-01-01 18:03:34,827 [clojure-agent-send-off-pool-7] DEBUG datomic.connector - {:event :connector/updater-cleanup, :msec 16.9, :phas
+[me :end, :pid 30819, :tid 147} 
+[m2024-01-01 18:03:34,832 [clojure-agent-send-off-pool-4] DEBUG datomic.connector - {:event :connector/notify-cleanup, :phase :begin, :pi
+[md 30819, :tid 131} 
+[m2024-01-01 18:03:34,832 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/notify-data, :msec 38, :id #uuid "65928df6-8
+[m75d-409d-8e4c-74718b682d43", :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,838 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Requesting 131072 credits on address admin.request, ne
+[meded = 131072, arriving = 0 
+[m2024-01-01 18:03:34,838 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - Request 131072 credits on address admin.request 
+[m2024-01-01 18:03:34,856 [clojure-agent-send-off-pool-4] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessi
+[monImpl [name=063c3c61-a88d-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.a
+[mpache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@14f110c1 
+[m2024-01-01 18:03:34,859 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - not asking for -1 credits on admin.request 
+[m2024-01-01 18:03:34,860 [main] DEBUG o.a.a.a.c.c.i.AbstractProducerCreditsImpl - AfterAcquire 147 credits on address admin.request, pen
+[mdingCredits=130925 
+[m2024-01-01 18:03:34,876 [clojure-agent-send-off-pool-4] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl
+[m [name=063c3c61-a88d-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.
+[mactivemq.artemis.core.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@14f110c1 
+[m2024-01-01 18:03:34,877 [clojure-agent-send-off-pool-4] DEBUG datomic.connector - {:event :connector/notify-cleanup, :msec 45.3, :phase
+[m :end, :pid 30819, :tid 131} 
+[m2024-01-01 18:03:34,846 [clojure-agent-send-off-pool-6] INFO  datomic.peer - {:event :peer/transactor-connection-failed, :pid 30819, :t
+[mid 140} 
+[morg.apache.activemq.artemis.api.core.ActiveMQObjectClosedException: AMQ219017: Consumer is closed
+[m	at org.apache.activemq.artemis.core.client.impl.ClientConsumerImpl.checkClosed(ClientConsumerImpl.java:934)
+[m	at org.apache.activemq.artemis.core.client.impl.ClientConsumerImpl.receive(ClientConsumerImpl.java:202)
+[m	at org.apache.activemq.artemis.core.client.impl.ClientConsumerImpl.receive(ClientConsumerImpl.java:388)
+[m	at datomic.artemis_client$fn__20366.invokeStatic(artemis_client.clj:169)
+[m	at datomic.artemis_client$fn__20366.invoke(artemis_client.clj:162)
+[m	at datomic.queue$fn__9757$G__9750__9762.invoke(queue.clj:18)
+[m	at datomic.connector$create_hornet_notifier$fn__20710$fn__20711$fn__20715$fn__20716.invoke(connector.clj:179)
+[m	at datomic.connector$create_hornet_notifier$fn__20710$fn__20711$fn__20715.invoke(connector.clj:173)
+[m	at datomic.connector$create_hornet_notifier$fn__20710$fn__20711.invoke(connector.clj:171)
+[m	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+[m	at clojure.lang.AFn.call(AFn.java:18)
+[m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[m	at java.base/java.lang.Thread.run(Thread.java:1583)
+[m2024-01-01 18:03:34,880 [clojure-agent-send-off-pool-6] DEBUG datomic.connector - {:event :connector/notify-loop, :msec 457.0, :phase :
+[mend, :threw org.apache.activemq.artemis.api.core.ActiveMQObjectClosedException, :pid 30819, :tid 140} 
+[m2024-01-01 18:03:34,881 [clojure-agent-send-off-pool-6] WARN  datomic.connector - {:message "error executing future", :pid 30819, :tid 
+[m140} 
+[morg.apache.activemq.artemis.api.core.ActiveMQObjectClosedException: AMQ219017: Consumer is closed
+[m	at org.apache.activemq.artemis.core.client.impl.ClientConsumerImpl.checkClosed(ClientConsumerImpl.java:934)
+[m	at org.apache.activemq.artemis.core.client.impl.ClientConsumerImpl.receive(ClientConsumerImpl.java:202)
+[m	at org.apache.activemq.artemis.core.client.impl.ClientConsumerImpl.receive(ClientConsumerImpl.java:388)
+[m	at datomic.artemis_client$fn__20366.invokeStatic(artemis_client.clj:169)
+[m	at datomic.artemis_client$fn__20366.invoke(artemis_client.clj:162)
+[m	at datomic.queue$fn__9757$G__9750__9762.invoke(queue.clj:18)
+[m	at datomic.connector$create_hornet_notifier$fn__20710$fn__20711$fn__20715$fn__20716.invoke(connector.clj:179)
+[m	at datomic.connector$create_hornet_notifier$fn__20710$fn__20711$fn__20715.invoke(connector.clj:173)
+[m	at datomic.connector$create_hornet_notifier$fn__20710$fn__20711.invoke(connector.clj:171)
+[m	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+[m	at clojure.lang.AFn.call(AFn.java:18)
+[m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+[m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[m	at java.base/java.lang.Thread.run(Thread.java:1583)
+[m2024-01-01 18:03:34,912 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - Calling close on session ClientSessionImpl [name=06830963-a88
+[md-11ee-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.co
+[mre.client.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@7c8a1013 
+[m2024-01-01 18:03:34,916 [main] DEBUG o.a.a.a.c.c.impl.ClientSessionImpl - calling cleanup on ClientSessionImpl [name=06830963-a88d-11ee
+[m-a49d-1063c8f6573b, username=CpGwt5K9HVRtbPkkBjE/ZMTUbIG8/ft+JgCG7wxfVYU=, closed=false, factory = org.apache.activemq.artemis.core.cli
+[ment.impl.ClientSessionFactoryImpl@1393c8b, metaData=()]@7c8a1013 
+[m2024-01-01 18:03:34,917 [main] DEBUG datomic.connector - {:event :peer/admin-request, :request :delete-database, :return {:deleted "vis
+[mitera_dev", :db-id "visitera_dev-66f6b87a-15f6-49bb-bf3a-2f134f436360"}, :pid 30819, :tid 1} 
+[m2024-01-01 18:03:34,918 [main] DEBUG datomic.peer - {:event :peer/transactor-admin-request, :cluster {:protocol :dev, :db-name "visiter
+[ma_dev", :system-root "localhost:4334", :host "localhost", :port 4334}, :request :delete-database, :arg {:db-name "visitera_dev"}, :msec
+[m 111.0, :phase :end, :pid 30819, :tid 1} 
+
+[mRan 2 tests containing 3 assertions.
+[m0 failures, 0 errors.
+
+[mPassed all tests
+[mFinished at 18:03:34.919 (run time: 0.917s)
+[m2024-01-01 18:04:30,726 [Datomic Metrics Reporter] INFO  datomic.process-monitor - {:tid 105, :ObjectCacheCount 74, :PeerAcceptNewMsec 
+[m{:lo 0, :hi 8, :sum 11, :count 5}, :AvailableMB 3590.0, :Alarm {:lo 1, :hi 1, :sum 1, :count 1}, :StorageGetMsec {:lo 1, :hi 9, :sum 52
+[m, :count 25}, :PoolReadAheadActive {:lo 0, :hi 2, :sum 2, :count 4}, :pid 30819, :event :metrics, :ObjectCache {:lo 0, :hi 1, :sum 38, 
+[m:count 67}, :LogIngestMsec {:lo 1, :hi 14, :sum 15, :count 2}, :MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :PeerFulltextBatch {:lo
+[m 1, :hi 1, :sum 5, :count 5}, :DbAddFulltextMsec {:lo 0, :hi 0, :sum 0, :count 2}, :PodGetMsec {:lo 3, :hi 5, :sum 13, :count 3}, :LogI
+[mngestBytes {:lo 0, :hi 0, :sum 0, :count 2}, :StorageGetBytes {:lo 31, :hi 3105, :sum 6955, :count 25}, :AlarmUnhandledException {:lo 1
+[m[m, :hi 1, :sum 1, :count 1}, :DirLoads {:lo 1, :hi 1, :sum 4, :count 4}, :PoolReadAheadQueued {:lo 0, :hi 0, :sum 0, :count 4}} 
+[m2024-01-01 18:04:30,727 [Datomic Metrics Reporter] DEBUG datomic.process-monitor - {:event :metrics/report, :phase :begin, :pid 30819, 
+[m:tid 105} 
+[m2024-01-01 18:04:30,727 [Datomic Metrics Reporter] DEBUG datomic.process-monitor - {:event :metrics/report, :msec 0.0632, :phase :end, 
+[m:pid 30819, :tid 105} 
+[m/2024-01-01 18:05:30,727 [Datomic Metrics Reporter] INFO  datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :
+[mAvailableMB 3530.0, :ObjectCacheCount 74, :event :metrics, :pid 30819, :tid 105} 
+[m2024-01-01 18:05:30,727 [Datomic Metrics Reporter] DEBUG datomic.process-monitor - {:event :metrics/report, :phase :begin, :pid 30819, 
+[m:tid 105} 
+[m2024-01-01 18:05:30,727 [Datomic Metrics Reporter] DEBUG datomic.process-monitor - {:event :metrics/report, :msec 0.0997, :phase :end, 
+[m:pid 30819, :tid 105} 
+[ms^[/sad^[2024-01-01 18:06:30,727 [Datomic Metrics Reporter] INFO  datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :cou
+[mnt 1}, :AvailableMB 3480.0, :ObjectCacheCount 74, :event :metrics, :pid 30819, :tid 105} 
+[m2024-01-01 18:06:30,727 [Datomic Metrics Reporter] DEBUG datomic.process-monitor - {:event :metrics/report, :phase :begin, :pid 30819, 
+[m:tid 105} 
+[m2024-01-01 18:06:30,727 [Datomic Metrics Reporter] DEBUG datomic.process-monitor - {:event :metrics/report, :msec 0.0633, :phase :end, 
+[m:pid 30819, :tid 105} 
+[m^F^F
