@@ -5,6 +5,7 @@
    [luminus.http-server :as http]
    [mount.core :as mount]
    [visitera.config :refer [env]]
+   [visitera.db.core :refer [conn install-schema]]
    [visitera.handler :as handler]
    [visitera.nrepl :as nrepl])
   (:gen-class))
@@ -52,6 +53,7 @@
                         mount/start-with-args
                         :started)]
     (log/info component "started"))
+  (install-schema conn)
   (.addShutdownHook (Runtime/getRuntime) (Thread. stop-app)))
 
 (defn -main [& args]

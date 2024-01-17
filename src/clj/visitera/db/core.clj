@@ -23,7 +23,7 @@
   Datomic schema migrations or db preinstalled data can be put into 'migrations/schema.edn'
   Every txes will be executed exactly once no matter how many times system restart."
   [conn]
-  (for [resource db-resources]
+  (doseq [resource db-resources]
     (let [norms-map (c/read-resource resource)]
       (c/ensure-conforms conn norms-map (keys norms-map)))))
 
